@@ -37,9 +37,7 @@ buildscript {
                                                                                 manifest {
                                                                                         attributes(
                                                                                                     'FMLCorePlugin': 'bqfontfix.BQFontFixCoremod',
-                                                                                                                'ModSide': 'CLIENT',
-                                                                                                                            'ForceLoadAsMod': 'true'
-                                                                                                                                    )
-                                                                                                                                        }
-                                                                                                                                        }
-                                                                                                                                    
+                                                                                                                'FMLCorePluginContainsFMLMod': 'false'
+                                                                                                                        )
+                                                                                                                            }
+                                                                                                                            }
