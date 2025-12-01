@@ -1,4 +1,5 @@
 Manifest-Version: 1.0
-FMLCorePluginContainsFMLMod: true
+ModSide: CLIENT
+ForceLoadAsMod: true
 FMLCorePlugin: bqfontfix.BQFontFixCoremod
 

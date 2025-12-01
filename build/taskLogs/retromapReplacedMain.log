@@ -8,5 +8,7 @@ End  Processing: bqfontfix/BQFontFixCoremod.java
 
 Start Processing: bqfontfix/BQFontFixTransformer.java
 Import: net.minecraft.launchwrapper.IClassTransformer
+Import: org.objectweb.asm.*
+Import: org.objectweb.asm.commons.AdviceAdapter
 End  Processing: bqfontfix/BQFontFixTransformer.java
 
