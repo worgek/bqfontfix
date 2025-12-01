@@ -1,0 +1,11 @@
+Unsupposrted library path: /workspaces/bqfontfix/libs/.gitkeep
+Unsupposrted library path: /workspaces/bqfontfix/build/classes/java/api
+Unsupposrted library path: /workspaces/bqfontfix/build/resources/api
+Symbol range map extraction starting
+Processing 2 files
+startProcessing "bqfontfix/BQFontFixCoremod.java" md5: b0c1ad35630df67cd33b3297372dea52
+endProcessing "bqfontfix/BQFontFixCoremod.java"
+
+startProcessing "bqfontfix/BQFontFixTransformer.java" md5: 50b53ff309f65504813255a980eba4b8
+endProcessing "bqfontfix/BQFontFixTransformer.java"
+

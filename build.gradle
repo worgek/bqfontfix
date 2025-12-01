@@ -1,42 +1,46 @@
 buildscript {
-    repositories {
-        jcenter()
-        mavenCentral()
-        maven { url = "https://files.minecraftforge.net/maven" }
-    }
-    dependencies {
-        classpath 'net.minecraftforge.gradle:ForgeGradle:2.3-SNAPSHOT'
-    }
-}
+        repositories {
+                jcenter()
+                        mavenCentral()
+                                maven { url = "https://files.minecraftforge.net/maven" }
+                                    }
+                                        dependencies {
+                                                classpath 'net.minecraftforge.gradle:ForgeGradle:2.3-SNAPSHOT'
+                                                    }
+                                                    }
 
-apply plugin: 'net.minecraftforge.gradle.forge'
+                                                    apply plugin: 'net.minecraftforge.gradle.forge'
 
-version = "1.0.0"
-group = "bqfontfix"
-archivesBaseName = "bqfontfix"
+                                                    version = "1.0.0"
+                                                    group = "bqfontfix"
+                                                    archivesBaseName = "bqfontfix"
 
-sourceCompatibility = 1.8
-targetCompatibility = 1.8
+                                                    sourceCompatibility = 1.8
+                                                    targetCompatibility = 1.8
 
-minecraft {
-    version = "1.12.2-14.23.5.2847"
-    runDir = "run"
-    mappings = "stable_39"
-}
+                                                    minecraft {
+                                                        version = "1.12.2-14.23.5.2847"
+                                                            runDir = "run"
+                                                                mappings = "stable_39"
+                                                                }
 
-repositories {
-    mavenCentral()
-    jcenter()
-}
+                                                                repositories {
+                                                                    mavenCentral()
+                                                                        jcenter()
+                                                                        }
 
-dependencies {
-    compile files("libs/BetterQuestingUnofficial-4.2.2.jar")
-}
+                                                                        dependencies {
+                                                                            compile files("libs/BetterQuestingUnofficial-4.2.2.jar")
+                                                                            }
 
-jar {
-    manifest {
-        attributes(
-            'ModSide': 'CLIENT'
-        )
-    }
+                                                                            jar {
+                                                                                manifest {
+                                                                                        attributes(
+                                                                                                    'FMLCorePlugin': 'bqfontfix.BQFontFixCoremod',
+                                                                                                                'ModSide': 'CLIENT',
+                                                                                                                            'ForceLoadAsMod': 'true'
+                                                                                                                                    )
+                                                                                                                                        }
+                                                                                                                                        }
+                                                                                                                                        
 }

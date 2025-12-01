@@ -1,0 +1,12 @@
+Processing 2 files
+Start Processing: bqfontfix/BQFontFixCoremod.java
+New Key: class net/minecraftforge/fml/relauncher/IFMLLoadingPlugin
+New Key: class net/minecraftforge/fml/relauncher/IFMLLoadingPlugin
+Import: java.util.Map
+Import: net.minecraftforge.fml.relauncher.IFMLLoadingPlugin
+End  Processing: bqfontfix/BQFontFixCoremod.java
+
+Start Processing: bqfontfix/BQFontFixTransformer.java
+Import: net.minecraft.launchwrapper.IClassTransformer
+End  Processing: bqfontfix/BQFontFixTransformer.java
+

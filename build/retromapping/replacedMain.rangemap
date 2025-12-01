@@ -1,0 +1,62 @@
+Unsupposrted library path: /workspaces/bqfontfix/libs/.gitkeep
+Unsupposrted library path: /workspaces/bqfontfix/build/classes/java/api
+Unsupposrted library path: /workspaces/bqfontfix/build/resources/api
+Symbol range map extraction starting
+Processing 2 files
+startProcessing "bqfontfix/BQFontFixCoremod.java" md5: b0c1ad35630df67cd33b3297372dea52
+@|bqfontfix/BQFontFixCoremod.java|8|17|bqfontfix|package|bqfontfix|(file)
+Class Start: bqfontfix.BQFontFixCoremod
+   @|bqfontfix/BQFontFixCoremod.java|104|126|IFMLLoadingPlugin.Name|class|net.minecraftforge.fml.relauncher.IFMLLoadingPlugin.Name|false
+   @|bqfontfix/BQFontFixCoremod.java|141|168|IFMLLoadingPlugin.MCVersion|class|net.minecraftforge.fml.relauncher.IFMLLoadingPlugin.MCVersion|false
+   @|bqfontfix/BQFontFixCoremod.java|192|208|BQFontFixCoremod|class|bqfontfix.BQFontFixCoremod|false
+   @|bqfontfix/BQFontFixCoremod.java|220|237|IFMLLoadingPlugin|class|net.minecraftforge.fml.relauncher.IFMLLoadingPlugin|false
+   Method Start: getASMTransformerClass()[Ljava/lang/String;
+      @|bqfontfix/BQFontFixCoremod.java|246|254|Override|class|java.lang.Override|false
+      @|bqfontfix/BQFontFixCoremod.java|270|276|String|class|java.lang.String|false
+      @|bqfontfix/BQFontFixCoremod.java|279|301|getASMTransformerClass|method|net.minecraftforge.fml.relauncher.IFMLLoadingPlugin|getASMTransformerClass|()[Ljava/lang/String;
+      @|bqfontfix/BQFontFixCoremod.java|333|339|String|class|java.lang.String|false
+   Method End: getASMTransformerClass()[Ljava/lang/String;
+   Method Start: getModContainerClass()Ljava/lang/String;
+      @|bqfontfix/BQFontFixCoremod.java|532|540|Override|class|java.lang.Override|false
+      @|bqfontfix/BQFontFixCoremod.java|596|602|String|class|java.lang.String|false
+      @|bqfontfix/BQFontFixCoremod.java|603|623|getModContainerClass|method|net.minecraftforge.fml.relauncher.IFMLLoadingPlugin|getModContainerClass|()Ljava/lang/String;
+   Method End: getModContainerClass()Ljava/lang/String;
+   Method Start: getSetupClass()Ljava/lang/String;
+      @|bqfontfix/BQFontFixCoremod.java|825|833|Override|class|java.lang.Override|false
+      @|bqfontfix/BQFontFixCoremod.java|909|915|String|class|java.lang.String|false
+      @|bqfontfix/BQFontFixCoremod.java|916|929|getSetupClass|method|net.minecraftforge.fml.relauncher.IFMLLoadingPlugin|getSetupClass|()Ljava/lang/String;
+   Method End: getSetupClass()Ljava/lang/String;
+   Method Start: injectData(Ljava/util/Map;)V
+      @|bqfontfix/BQFontFixCoremod.java|1331|1335|data|param|bqfontfix.BQFontFixCoremod|injectData|(Ljava/util/Map;)V|data|0
+      @|bqfontfix/BQFontFixCoremod.java|1191|1199|Override|class|java.lang.Override|false
+      @|bqfontfix/BQFontFixCoremod.java|1300|1310|injectData|method|net.minecraftforge.fml.relauncher.IFMLLoadingPlugin|injectData|(Ljava/util/Map;)V
+      @|bqfontfix/BQFontFixCoremod.java|1311|1314|Map|class|java.util.Map|false
+      @|bqfontfix/BQFontFixCoremod.java|1315|1321|String|class|java.lang.String|false
+      @|bqfontfix/BQFontFixCoremod.java|1323|1329|Object|class|java.lang.Object|false
+   Method End: injectData(Ljava/util/Map;)V
+   Method Start: getAccessTransformerClass()Ljava/lang/String;
+      @|bqfontfix/BQFontFixCoremod.java|1657|1665|Override|class|java.lang.Override|false
+      @|bqfontfix/BQFontFixCoremod.java|1781|1787|String|class|java.lang.String|false
+      @|bqfontfix/BQFontFixCoremod.java|1788|1813|getAccessTransformerClass|method|net.minecraftforge.fml.relauncher.IFMLLoadingPlugin|getAccessTransformerClass|()Ljava/lang/String;
+   Method End: getAccessTransformerClass()Ljava/lang/String;
+Class End  : bqfontfix.BQFontFixCoremod
+endProcessing "bqfontfix/BQFontFixCoremod.java"
+
+startProcessing "bqfontfix/BQFontFixTransformer.java" md5: 50b53ff309f65504813255a980eba4b8
+@|bqfontfix/BQFontFixTransformer.java|8|17|bqfontfix|package|bqfontfix|(file)
+Class Start: bqfontfix.BQFontFixTransformer
+   @|bqfontfix/BQFontFixTransformer.java|88|108|BQFontFixTransformer|class|bqfontfix.BQFontFixTransformer|false
+   @|bqfontfix/BQFontFixTransformer.java|120|137|IClassTransformer|class|net.minecraft.launchwrapper.IClassTransformer|false
+   Method Start: transform(Ljava/lang/String;Ljava/lang/String;[B)[B
+      @|bqfontfix/BQFontFixTransformer.java|194|198|name|param|bqfontfix.BQFontFixTransformer|transform|(Ljava/lang/String;Ljava/lang/String;[B)[B|name|0
+      @|bqfontfix/BQFontFixTransformer.java|207|222|transformedName|param|bqfontfix.BQFontFixTransformer|transform|(Ljava/lang/String;Ljava/lang/String;[B)[B|transformedName|1
+      @|bqfontfix/BQFontFixTransformer.java|231|241|basicClass|param|bqfontfix.BQFontFixTransformer|transform|(Ljava/lang/String;Ljava/lang/String;[B)[B|basicClass|2
+      @|bqfontfix/BQFontFixTransformer.java|146|154|Override|class|java.lang.Override|false
+      @|bqfontfix/BQFontFixTransformer.java|177|186|transform|method|net.minecraft.launchwrapper.IClassTransformer|transform|(Ljava/lang/String;Ljava/lang/String;[B)[B
+      @|bqfontfix/BQFontFixTransformer.java|187|193|String|class|java.lang.String|false
+      @|bqfontfix/BQFontFixTransformer.java|200|206|String|class|java.lang.String|false
+      @|bqfontfix/BQFontFixTransformer.java|414|424|basicClass|param|bqfontfix.BQFontFixTransformer|transform|(Ljava/lang/String;Ljava/lang/String;[B)[B|basicClass|2
+   Method End: transform(Ljava/lang/String;Ljava/lang/String;[B)[B
+Class End  : bqfontfix.BQFontFixTransformer
+endProcessing "bqfontfix/BQFontFixTransformer.java"
+
