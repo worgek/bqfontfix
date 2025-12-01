@@ -1,0 +1,1281 @@
+Classfile /workspaces/bqfontfix/BqFontRenderer.class
+  Last modified Dec 1, 2025; size 6401 bytes
+  MD5 checksum 3f19d4e3ad5a178d42562e8eff4c95e8
+  Compiled from "BqFontRenderer.java"
+public class betterquesting.api2.utils.BqFontRenderer extends net.minecraft.client.gui.FontRenderer
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_SUPER
+Constant pool:
+    #1 = Utf8               betterquesting/api2/utils/BqFontRenderer
+    #2 = Class              #1            // betterquesting/api2/utils/BqFontRenderer
+    #3 = Utf8               net/minecraft/client/gui/FontRenderer
+    #4 = Class              #3            // net/minecraft/client/gui/FontRenderer
+    #5 = Utf8               BqFontRenderer.java
+    #6 = Utf8               FONT_UNICODE
+    #7 = Utf8               Lbetterquesting/api2/utils/BqFontRenderer;
+    #8 = Utf8               FONT_STANDARD
+    #9 = Utf8               UNICODE_PAGE_LOCATIONS
+   #10 = Utf8               [Lnet/minecraft/util/ResourceLocation;
+   #11 = Utf8               isSmall
+   #12 = Utf8               Z
+   #13 = Utf8               <init>
+   #14 = Utf8               (Z)V
+   #15 = Utf8               net/minecraft/client/Minecraft
+   #16 = Class              #15           // net/minecraft/client/Minecraft
+   #17 = Utf8               func_71410_x
+   #18 = Utf8               ()Lnet/minecraft/client/Minecraft;
+   #19 = NameAndType        #17:#18       // func_71410_x:()Lnet/minecraft/client/Minecraft;
+   #20 = Methodref          #16.#19       // net/minecraft/client/Minecraft.func_71410_x:()Lnet/minecraft/client/Minecraft;
+   #21 = Utf8               field_71474_y
+   #22 = Utf8               Lnet/minecraft/client/settings/GameSettings;
+   #23 = NameAndType        #21:#22       // field_71474_y:Lnet/minecraft/client/settings/GameSettings;
+   #24 = Fieldref           #16.#23       // net/minecraft/client/Minecraft.field_71474_y:Lnet/minecraft/client/settings/GameSettings;
+   #25 = Utf8               net/minecraft/util/ResourceLocation
+   #26 = Class              #25           // net/minecraft/util/ResourceLocation
+   #27 = Utf8               minecraft:textures/font/ascii.png
+   #28 = String             #27           // minecraft:textures/font/ascii.png
+   #29 = Utf8               (Ljava/lang/String;)V
+   #30 = NameAndType        #13:#29       // "<init>":(Ljava/lang/String;)V
+   #31 = Methodref          #26.#30       // net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+   #32 = Utf8               field_71446_o
+   #33 = Utf8               Lnet/minecraft/client/renderer/texture/TextureManager;
+   #34 = NameAndType        #32:#33       // field_71446_o:Lnet/minecraft/client/renderer/texture/TextureManager;
+   #35 = Fieldref           #16.#34       // net/minecraft/client/Minecraft.field_71446_o:Lnet/minecraft/client/renderer/texture/TextureManager;
+   #36 = Utf8               (Lnet/minecraft/client/settings/GameSettings;Lnet/minecraft/util/ResourceLocation;Lnet/minecraft/client/renderer/texture/TextureManager;Z)V
+   #37 = NameAndType        #13:#36       // "<init>":(Lnet/minecraft/client/settings/GameSettings;Lnet/minecraft/util/ResourceLocation;Lnet/minecraft/client/renderer/texture/TextureManager;Z)V
+   #38 = Methodref          #4.#37        // net/minecraft/client/gui/FontRenderer."<init>":(Lnet/minecraft/client/settings/GameSettings;Lnet/minecraft/util/ResourceLocation;Lnet/minecraft/client/renderer/texture/TextureManager;Z)V
+   #39 = NameAndType        #11:#12       // isSmall:Z
+   #40 = Fieldref           #2.#39        // betterquesting/api2/utils/BqFontRenderer.isSmall:Z
+   #41 = Utf8               func_110442_L
+   #42 = Utf8               ()Lnet/minecraft/client/resources/IResourceManager;
+   #43 = NameAndType        #41:#42       // func_110442_L:()Lnet/minecraft/client/resources/IResourceManager;
+   #44 = Methodref          #16.#43       // net/minecraft/client/Minecraft.func_110442_L:()Lnet/minecraft/client/resources/IResourceManager;
+   #45 = Utf8               net/minecraft/client/resources/IReloadableResourceManager
+   #46 = Class              #45           // net/minecraft/client/resources/IReloadableResourceManager
+   #47 = Utf8               func_110542_a
+   #48 = Utf8               (Lnet/minecraft/client/resources/IResourceManagerReloadListener;)V
+   #49 = NameAndType        #47:#48       // func_110542_a:(Lnet/minecraft/client/resources/IResourceManagerReloadListener;)V
+   #50 = InterfaceMethodref #46.#49       // net/minecraft/client/resources/IReloadableResourceManager.func_110542_a:(Lnet/minecraft/client/resources/IResourceManagerReloadListener;)V
+   #51 = Utf8               this
+   #52 = Utf8               unicode
+   #53 = Utf8               func_175065_a
+   #54 = Utf8               (Ljava/lang/String;FFIZ)I
+   #55 = Utf8               drawStringScaled
+   #56 = Utf8               (Ljava/lang/String;FFIZF)I
+   #57 = NameAndType        #55:#56       // drawStringScaled:(Ljava/lang/String;FFIZF)I
+   #58 = Methodref          #2.#57        // betterquesting/api2/utils/BqFontRenderer.drawStringScaled:(Ljava/lang/String;FFIZF)I
+   #59 = Utf8               text
+   #60 = Utf8               Ljava/lang/String;
+   #61 = Utf8               x
+   #62 = Utf8               F
+   #63 = Utf8               y
+   #64 = Utf8               color
+   #65 = Utf8               I
+   #66 = Utf8               dropShadow
+   #67 = Utf8               net/minecraft/client/settings/GameSettings
+   #68 = Class              #67           // net/minecraft/client/settings/GameSettings
+   #69 = Utf8               field_74335_Z
+   #70 = NameAndType        #69:#65       // field_74335_Z:I
+   #71 = Fieldref           #68.#70       // net/minecraft/client/settings/GameSettings.field_74335_Z:I
+   #72 = NameAndType        #53:#54       // func_175065_a:(Ljava/lang/String;FFIZ)I
+   #73 = Methodref          #4.#72        // net/minecraft/client/gui/FontRenderer.func_175065_a:(Ljava/lang/String;FFIZ)I
+   #74 = Float              0.5f
+   #75 = Utf8               java/lang/String
+   #76 = Class              #75           // java/lang/String
+   #77 = Utf8               net/minecraft/client/renderer/GlStateManager
+   #78 = Class              #77           // net/minecraft/client/renderer/GlStateManager
+   #79 = Utf8               func_179094_E
+   #80 = Utf8               ()V
+   #81 = NameAndType        #79:#80       // func_179094_E:()V
+   #82 = Methodref          #78.#81       // net/minecraft/client/renderer/GlStateManager.func_179094_E:()V
+   #83 = Utf8               func_179109_b
+   #84 = Utf8               (FFF)V
+   #85 = NameAndType        #83:#84       // func_179109_b:(FFF)V
+   #86 = Methodref          #78.#85       // net/minecraft/client/renderer/GlStateManager.func_179109_b:(FFF)V
+   #87 = Utf8               func_179152_a
+   #88 = NameAndType        #87:#84       // func_179152_a:(FFF)V
+   #89 = Methodref          #78.#88       // net/minecraft/client/renderer/GlStateManager.func_179152_a:(FFF)V
+   #90 = Utf8               func_179121_F
+   #91 = NameAndType        #90:#80       // func_179121_F:()V
+   #92 = Methodref          #78.#91       // net/minecraft/client/renderer/GlStateManager.func_179121_F:()V
+   #93 = Utf8               r
+   #94 = Utf8               shadow
+   #95 = Utf8               scale
+   #96 = Utf8               mc
+   #97 = Utf8               Lnet/minecraft/client/Minecraft;
+   #98 = Utf8               func_78277_a
+   #99 = Utf8               (CZ)F
+  #100 = Utf8               field_78287_e
+  #101 = Utf8               [B
+  #102 = NameAndType        #100:#101     // field_78287_e:[B
+  #103 = Fieldref           #2.#102       // betterquesting/api2/utils/BqFontRenderer.field_78287_e:[B
+  #104 = Utf8               loadGlyphTexture
+  #105 = Utf8               (I)V
+  #106 = NameAndType        #104:#105     // loadGlyphTexture:(I)V
+  #107 = Methodref          #2.#106       // betterquesting/api2/utils/BqFontRenderer.loadGlyphTexture:(I)V
+  #108 = Double             0.02d
+  #110 = Double             7.99d
+  #112 = Utf8               org/lwjgl/opengl/GL11
+  #113 = Class              #112          // org/lwjgl/opengl/GL11
+  #114 = Utf8               glTexParameteri
+  #115 = Utf8               (III)V
+  #116 = NameAndType        #114:#115     // glTexParameteri:(III)V
+  #117 = Methodref          #113.#116     // org/lwjgl/opengl/GL11.glTexParameteri:(III)V
+  #118 = Utf8               func_187447_r
+  #119 = NameAndType        #118:#105     // func_187447_r:(I)V
+  #120 = Methodref          #78.#119      // net/minecraft/client/renderer/GlStateManager.func_187447_r:(I)V
+  #121 = Double             256.0d
+  #123 = Utf8               glTexCoord2d
+  #124 = Utf8               (DD)V
+  #125 = NameAndType        #123:#124     // glTexCoord2d:(DD)V
+  #126 = Methodref          #113.#125     // org/lwjgl/opengl/GL11.glTexCoord2d:(DD)V
+  #127 = Utf8               field_78295_j
+  #128 = NameAndType        #127:#62      // field_78295_j:F
+  #129 = Fieldref           #2.#128       // betterquesting/api2/utils/BqFontRenderer.field_78295_j:F
+  #130 = Utf8               field_78296_k
+  #131 = NameAndType        #130:#62      // field_78296_k:F
+  #132 = Fieldref           #2.#131       // betterquesting/api2/utils/BqFontRenderer.field_78296_k:F
+  #133 = Utf8               glVertex3d
+  #134 = Utf8               (DDD)V
+  #135 = NameAndType        #133:#134     // glVertex3d:(DDD)V
+  #136 = Methodref          #113.#135     // org/lwjgl/opengl/GL11.glVertex3d:(DDD)V
+  #137 = Double             15.98d
+  #139 = Double             2.0d
+  #141 = Utf8               func_187437_J
+  #142 = NameAndType        #141:#80      // func_187437_J:()V
+  #143 = Methodref          #78.#142      // net/minecraft/client/renderer/GlStateManager.func_187437_J:()V
+  #144 = Utf8               j
+  #145 = Utf8               k
+  #146 = Utf8               l
+  #147 = Utf8               f
+  #148 = Utf8               D
+  #149 = Utf8               f1
+  #150 = Utf8               f2
+  #151 = Utf8               f3
+  #152 = Utf8               f4
+  #153 = Utf8               f5
+  #154 = Utf8               ys
+  #155 = Utf8               ch
+  #156 = Utf8               C
+  #157 = Utf8               italic
+  #158 = Utf8               i
+  #159 = Utf8               func_78266_a
+  #160 = Utf8               (IZ)F
+  #161 = Utf8               field_111273_g
+  #162 = Utf8               Lnet/minecraft/util/ResourceLocation;
+  #163 = NameAndType        #161:#162     // field_111273_g:Lnet/minecraft/util/ResourceLocation;
+  #164 = Fieldref           #2.#163       // betterquesting/api2/utils/BqFontRenderer.field_111273_g:Lnet/minecraft/util/ResourceLocation;
+  #165 = Utf8               bindTexture
+  #166 = Utf8               (Lnet/minecraft/util/ResourceLocation;)V
+  #167 = NameAndType        #165:#166     // bindTexture:(Lnet/minecraft/util/ResourceLocation;)V
+  #168 = Methodref          #2.#167       // betterquesting/api2/utils/BqFontRenderer.bindTexture:(Lnet/minecraft/util/ResourceLocation;)V
+  #169 = Utf8               field_78286_d
+  #170 = Utf8               [I
+  #171 = NameAndType        #169:#170     // field_78286_d:[I
+  #172 = Fieldref           #2.#171       // betterquesting/api2/utils/BqFontRenderer.field_78286_d:[I
+  #173 = Float              0.01f
+  #174 = Float              128.0f
+  #175 = Utf8               func_187426_b
+  #176 = Utf8               (FF)V
+  #177 = NameAndType        #175:#176     // func_187426_b:(FF)V
+  #178 = Methodref          #78.#177      // net/minecraft/client/renderer/GlStateManager.func_187426_b:(FF)V
+  #179 = Utf8               func_187435_e
+  #180 = NameAndType        #179:#84      // func_187435_e:(FFF)V
+  #181 = Methodref          #78.#180      // net/minecraft/client/renderer/GlStateManager.func_187435_e:(FFF)V
+  #182 = Float              7.99f
+  #183 = Utf8               getUnicodePageLocation
+  #184 = Utf8               (I)Lnet/minecraft/util/ResourceLocation;
+  #185 = NameAndType        #9:#10        // UNICODE_PAGE_LOCATIONS:[Lnet/minecraft/util/ResourceLocation;
+  #186 = Fieldref           #2.#185       // betterquesting/api2/utils/BqFontRenderer.UNICODE_PAGE_LOCATIONS:[Lnet/minecraft/util/ResourceLocation;
+  #187 = Utf8               textures/font/unicode_page_%02x.png
+  #188 = String             #187          // textures/font/unicode_page_%02x.png
+  #189 = Utf8               java/lang/Object
+  #190 = Class              #189          // java/lang/Object
+  #191 = Utf8               java/lang/Integer
+  #192 = Class              #191          // java/lang/Integer
+  #193 = Utf8               valueOf
+  #194 = Utf8               (I)Ljava/lang/Integer;
+  #195 = NameAndType        #193:#194     // valueOf:(I)Ljava/lang/Integer;
+  #196 = Methodref          #192.#195     // java/lang/Integer.valueOf:(I)Ljava/lang/Integer;
+  #197 = Utf8               format
+  #198 = Utf8               (Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+  #199 = NameAndType        #197:#198     // format:(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+  #200 = Methodref          #76.#199      // java/lang/String.format:(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+  #201 = Utf8               page
+  #202 = NameAndType        #183:#184     // getUnicodePageLocation:(I)Lnet/minecraft/util/ResourceLocation;
+  #203 = Methodref          #2.#202       // betterquesting/api2/utils/BqFontRenderer.getUnicodePageLocation:(I)Lnet/minecraft/util/ResourceLocation;
+  #204 = Utf8               func_78262_a
+  #205 = Utf8               (Ljava/lang/String;IZ)Ljava/lang/String;
+  #206 = Utf8               java/lang/StringBuilder
+  #207 = Class              #206          // java/lang/StringBuilder
+  #208 = NameAndType        #13:#80       // "<init>":()V
+  #209 = Methodref          #207.#208     // java/lang/StringBuilder."<init>":()V
+  #210 = Utf8               length
+  #211 = Utf8               ()I
+  #212 = NameAndType        #210:#211     // length:()I
+  #213 = Methodref          #76.#212      // java/lang/String.length:()I
+  #214 = Utf8               charAt
+  #215 = Utf8               (I)C
+  #216 = NameAndType        #214:#215     // charAt:(I)C
+  #217 = Methodref          #76.#216      // java/lang/String.charAt:(I)C
+  #218 = Utf8               func_78263_a
+  #219 = Utf8               (C)I
+  #220 = NameAndType        #218:#219     // func_78263_a:(C)I
+  #221 = Methodref          #2.#220       // betterquesting/api2/utils/BqFontRenderer.func_78263_a:(C)I
+  #222 = Utf8               isFormatColor
+  #223 = Utf8               (C)Z
+  #224 = NameAndType        #222:#223     // isFormatColor:(C)Z
+  #225 = Methodref          #2.#224       // betterquesting/api2/utils/BqFontRenderer.isFormatColor:(C)Z
+  #226 = Utf8               insert
+  #227 = Utf8               (IC)Ljava/lang/StringBuilder;
+  #228 = NameAndType        #226:#227     // insert:(IC)Ljava/lang/StringBuilder;
+  #229 = Methodref          #207.#228     // java/lang/StringBuilder.insert:(IC)Ljava/lang/StringBuilder;
+  #230 = Utf8               append
+  #231 = Utf8               (C)Ljava/lang/StringBuilder;
+  #232 = NameAndType        #230:#231     // append:(C)Ljava/lang/StringBuilder;
+  #233 = Methodref          #207.#232     // java/lang/StringBuilder.append:(C)Ljava/lang/StringBuilder;
+  #234 = Utf8               toString
+  #235 = Utf8               ()Ljava/lang/String;
+  #236 = NameAndType        #234:#235     // toString:()Ljava/lang/String;
+  #237 = Methodref          #207.#236     // java/lang/StringBuilder.toString:()Ljava/lang/String;
+  #238 = Utf8               c0
+  #239 = Utf8               i1
+  #240 = Utf8               width
+  #241 = Utf8               reverse
+  #242 = Utf8               stringbuilder
+  #243 = Utf8               Ljava/lang/StringBuilder;
+  #244 = Utf8               flag
+  #245 = Utf8               flag1
+  #246 = Utf8               func_78256_a
+  #247 = Utf8               (Ljava/lang/String;)I
+  #248 = Utf8               colorChar
+  #249 = Utf8               <clinit>
+  #250 = NameAndType        #13:#14       // "<init>":(Z)V
+  #251 = Methodref          #2.#250       // betterquesting/api2/utils/BqFontRenderer."<init>":(Z)V
+  #252 = NameAndType        #6:#7         // FONT_UNICODE:Lbetterquesting/api2/utils/BqFontRenderer;
+  #253 = Fieldref           #2.#252       // betterquesting/api2/utils/BqFontRenderer.FONT_UNICODE:Lbetterquesting/api2/utils/BqFontRenderer;
+  #254 = NameAndType        #8:#7         // FONT_STANDARD:Lbetterquesting/api2/utils/BqFontRenderer;
+  #255 = Fieldref           #2.#254       // betterquesting/api2/utils/BqFontRenderer.FONT_STANDARD:Lbetterquesting/api2/utils/BqFontRenderer;
+  #256 = Utf8               Code
+  #257 = Utf8               LineNumberTable
+  #258 = Utf8               LocalVariableTable
+  #259 = Utf8               StackMapTable
+  #260 = Utf8               SourceFile
+{
+  public static final betterquesting.api2.utils.BqFontRenderer FONT_UNICODE;
+    descriptor: Lbetterquesting/api2/utils/BqFontRenderer;
+    flags: ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final betterquesting.api2.utils.BqFontRenderer FONT_STANDARD;
+    descriptor: Lbetterquesting/api2/utils/BqFontRenderer;
+    flags: ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public betterquesting.api2.utils.BqFontRenderer(boolean);
+    descriptor: (Z)V
+    flags: ACC_PUBLIC
+    Code:
+      stack=5, locals=2, args_size=2
+         0: aload_0
+         1: invokestatic  #20                 // Method net/minecraft/client/Minecraft.func_71410_x:()Lnet/minecraft/client/Minecraft;
+         4: getfield      #24                 // Field net/minecraft/client/Minecraft.field_71474_y:Lnet/minecraft/client/settings/GameSettings;
+         7: new           #26                 // class net/minecraft/util/ResourceLocation
+        10: dup
+        11: ldc           #28                 // String minecraft:textures/font/ascii.png
+        13: invokespecial #31                 // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+        16: invokestatic  #20                 // Method net/minecraft/client/Minecraft.func_71410_x:()Lnet/minecraft/client/Minecraft;
+        19: getfield      #35                 // Field net/minecraft/client/Minecraft.field_71446_o:Lnet/minecraft/client/renderer/texture/TextureManager;
+        22: iload_1
+        23: invokespecial #38                 // Method net/minecraft/client/gui/FontRenderer."<init>":(Lnet/minecraft/client/settings/GameSettings;Lnet/minecraft/util/ResourceLocation;Lnet/minecraft/client/renderer/texture/TextureManager;Z)V
+        26: aload_0
+        27: iconst_0
+        28: putfield      #40                 // Field isSmall:Z
+        31: invokestatic  #20                 // Method net/minecraft/client/Minecraft.func_71410_x:()Lnet/minecraft/client/Minecraft;
+        34: invokevirtual #44                 // Method net/minecraft/client/Minecraft.func_110442_L:()Lnet/minecraft/client/resources/IResourceManager;
+        37: checkcast     #46                 // class net/minecraft/client/resources/IReloadableResourceManager
+        40: aload_0
+        41: invokeinterface #50,  2           // InterfaceMethod net/minecraft/client/resources/IReloadableResourceManager.func_110542_a:(Lnet/minecraft/client/resources/IResourceManagerReloadListener;)V
+        46: return
+      LineNumberTable:
+        line 19: 0
+        line 16: 26
+        line 20: 31
+        line 21: 46
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      47     0  this   Lbetterquesting/api2/utils/BqFontRenderer;
+            0      47     1 unicode   Z
+
+  public int func_175065_a(java.lang.String, float, float, int, boolean);
+    descriptor: (Ljava/lang/String;FFIZ)I
+    flags: ACC_PUBLIC
+    Code:
+      stack=7, locals=6, args_size=6
+         0: aload_0
+         1: aload_1
+         2: fload_2
+         3: fload_3
+         4: iload         4
+         6: iload         5
+         8: fconst_1
+         9: invokevirtual #58                 // Method drawStringScaled:(Ljava/lang/String;FFIZF)I
+        12: ireturn
+      LineNumberTable:
+        line 25: 0
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      13     0  this   Lbetterquesting/api2/utils/BqFontRenderer;
+            0      13     1  text   Ljava/lang/String;
+            0      13     2     x   F
+            0      13     3     y   F
+            0      13     4 color   I
+            0      13     5 dropShadow   Z
+
+  public int drawStringScaled(java.lang.String, float, float, int, boolean, float);
+    descriptor: (Ljava/lang/String;FFIZF)I
+    flags: ACC_PUBLIC
+    Code:
+      stack=6, locals=9, args_size=7
+         0: fload         6
+         2: fconst_0
+         3: fcmpg
+         4: ifgt          9
+         7: iconst_0
+         8: ireturn
+         9: invokestatic  #20                 // Method net/minecraft/client/Minecraft.func_71410_x:()Lnet/minecraft/client/Minecraft;
+        12: astore        7
+        14: fload         6
+        16: fconst_1
+        17: fcmpl
+        18: ifne          61
+        21: aload         7
+        23: getfield      #24                 // Field net/minecraft/client/Minecraft.field_71474_y:Lnet/minecraft/client/settings/GameSettings;
+        26: getfield      #71                 // Field net/minecraft/client/settings/GameSettings.field_74335_Z:I
+        29: ifle          44
+        32: aload         7
+        34: getfield      #24                 // Field net/minecraft/client/Minecraft.field_71474_y:Lnet/minecraft/client/settings/GameSettings;
+        37: getfield      #71                 // Field net/minecraft/client/settings/GameSettings.field_74335_Z:I
+        40: iconst_3
+        41: if_icmplt     61
+        44: aload_0
+        45: iconst_0
+        46: putfield      #40                 // Field isSmall:Z
+        49: aload_0
+        50: aload_1
+        51: fload_2
+        52: fload_3
+        53: iload         4
+        55: iload         5
+        57: invokespecial #73                 // Method net/minecraft/client/gui/FontRenderer.func_175065_a:(Ljava/lang/String;FFIZ)I
+        60: ireturn
+        61: aload_0
+        62: aload         7
+        64: getfield      #24                 // Field net/minecraft/client/Minecraft.field_71474_y:Lnet/minecraft/client/settings/GameSettings;
+        67: getfield      #71                 // Field net/minecraft/client/settings/GameSettings.field_74335_Z:I
+        70: ifle          85
+        73: aload         7
+        75: getfield      #24                 // Field net/minecraft/client/Minecraft.field_71474_y:Lnet/minecraft/client/settings/GameSettings;
+        78: getfield      #71                 // Field net/minecraft/client/settings/GameSettings.field_74335_Z:I
+        81: iconst_3
+        82: if_icmplt     93
+        85: fload         6
+        87: ldc           #74                 // float 0.5f
+        89: fcmpg
+        90: ifgt          97
+        93: iconst_1
+        94: goto          98
+        97: iconst_0
+        98: putfield      #40                 // Field isSmall:Z
+       101: invokestatic  #82                 // Method net/minecraft/client/renderer/GlStateManager.func_179094_E:()V
+       104: fload_2
+       105: fload_3
+       106: fconst_0
+       107: invokestatic  #86                 // Method net/minecraft/client/renderer/GlStateManager.func_179109_b:(FFF)V
+       110: fload         6
+       112: fload         6
+       114: fconst_0
+       115: invokestatic  #89                 // Method net/minecraft/client/renderer/GlStateManager.func_179152_a:(FFF)V
+       118: aload_0
+       119: aload_1
+       120: fconst_0
+       121: fconst_0
+       122: iload         4
+       124: iload         5
+       126: invokespecial #73                 // Method net/minecraft/client/gui/FontRenderer.func_175065_a:(Ljava/lang/String;FFIZ)I
+       129: istore        8
+       131: invokestatic  #92                 // Method net/minecraft/client/renderer/GlStateManager.func_179121_F:()V
+       134: iload         8
+       136: ireturn
+      StackMapTable: number_of_entries = 7
+        frame_type = 9 /* same */
+        frame_type = 252 /* append */
+          offset_delta = 34
+          locals = [ class net/minecraft/client/Minecraft ]
+        frame_type = 16 /* same */
+        frame_type = 87 /* same_locals_1_stack_item */
+          stack = [ class betterquesting/api2/utils/BqFontRenderer ]
+        frame_type = 71 /* same_locals_1_stack_item */
+          stack = [ class betterquesting/api2/utils/BqFontRenderer ]
+        frame_type = 67 /* same_locals_1_stack_item */
+          stack = [ class betterquesting/api2/utils/BqFontRenderer ]
+        frame_type = 255 /* full_frame */
+          offset_delta = 0
+          locals = [ class betterquesting/api2/utils/BqFontRenderer, class java/lang/String, float, float, int, int, float, class net/minecraft/client/Minecraft ]
+          stack = [ class betterquesting/api2/utils/BqFontRenderer, int ]
+      LineNumberTable:
+        line 29: 0
+        line 31: 9
+        line 33: 14
+        line 34: 44
+        line 35: 49
+        line 37: 61
+        line 39: 101
+        line 40: 104
+        line 41: 110
+        line 43: 118
+        line 45: 131
+        line 47: 134
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+          131       6     8     r   I
+            0     137     0  this   Lbetterquesting/api2/utils/BqFontRenderer;
+            0     137     1  text   Ljava/lang/String;
+            0     137     2     x   F
+            0     137     3     y   F
+            0     137     4 color   I
+            0     137     5 shadow   Z
+            0     137     6 scale   F
+           14     123     7    mc   Lnet/minecraft/client/Minecraft;
+
+  protected float func_78277_a(char, boolean);
+    descriptor: (CZ)F
+    flags: ACC_PROTECTED
+    Code:
+      stack=6, locals=21, args_size=3
+         0: aload_0
+         1: getfield      #103                // Field field_78287_e:[B
+         4: iload_1
+         5: baload
+         6: sipush        255
+         9: iand
+        10: istore_3
+        11: iload_3
+        12: ifne          17
+        15: fconst_0
+        16: freturn
+        17: iload_1
+        18: sipush        256
+        21: idiv
+        22: istore        4
+        24: aload_0
+        25: iload         4
+        27: invokespecial #107                // Method loadGlyphTexture:(I)V
+        30: iload_3
+        31: iconst_4
+        32: iushr
+        33: istore        5
+        35: iload_3
+        36: bipush        15
+        38: iand
+        39: istore        6
+        41: iload         5
+        43: i2d
+        44: dstore        7
+        46: iload         6
+        48: iconst_1
+        49: iadd
+        50: i2d
+        51: dstore        9
+        53: iload_1
+        54: bipush        16
+        56: irem
+        57: bipush        16
+        59: imul
+        60: i2d
+        61: dload         7
+        63: dadd
+        64: dstore        11
+        66: iload_1
+        67: sipush        255
+        70: iand
+        71: bipush        16
+        73: idiv
+        74: bipush        16
+        76: imul
+        77: i2d
+        78: dstore        13
+        80: dload         9
+        82: dload         7
+        84: dsub
+        85: ldc2_w        #108                // double 0.02d
+        88: dsub
+        89: dstore        15
+        91: iload_2
+        92: ifeq          99
+        95: dconst_1
+        96: goto          100
+        99: dconst_0
+       100: dstore        17
+       102: ldc2_w        #110                // double 7.99d
+       105: dstore        19
+       107: aload_0
+       108: getfield      #40                 // Field isSmall:Z
+       111: ifeq          138
+       114: sipush        3553
+       117: sipush        10240
+       120: sipush        9729
+       123: invokestatic  #117                // Method org/lwjgl/opengl/GL11.glTexParameteri:(III)V
+       126: sipush        3553
+       129: sipush        10241
+       132: sipush        9729
+       135: invokestatic  #117                // Method org/lwjgl/opengl/GL11.glTexParameteri:(III)V
+       138: iconst_5
+       139: invokestatic  #120                // Method net/minecraft/client/renderer/GlStateManager.func_187447_r:(I)V
+       142: dload         11
+       144: ldc2_w        #121                // double 256.0d
+       147: ddiv
+       148: dload         13
+       150: ldc2_w        #121                // double 256.0d
+       153: ddiv
+       154: invokestatic  #126                // Method org/lwjgl/opengl/GL11.glTexCoord2d:(DD)V
+       157: aload_0
+       158: getfield      #129                // Field field_78295_j:F
+       161: f2d
+       162: dload         17
+       164: dadd
+       165: aload_0
+       166: getfield      #132                // Field field_78296_k:F
+       169: f2d
+       170: dconst_0
+       171: invokestatic  #136                // Method org/lwjgl/opengl/GL11.glVertex3d:(DDD)V
+       174: dload         11
+       176: ldc2_w        #121                // double 256.0d
+       179: ddiv
+       180: dload         13
+       182: ldc2_w        #137                // double 15.98d
+       185: dadd
+       186: ldc2_w        #121                // double 256.0d
+       189: ddiv
+       190: invokestatic  #126                // Method org/lwjgl/opengl/GL11.glTexCoord2d:(DD)V
+       193: aload_0
+       194: getfield      #129                // Field field_78295_j:F
+       197: f2d
+       198: dload         17
+       200: dsub
+       201: aload_0
+       202: getfield      #132                // Field field_78296_k:F
+       205: f2d
+       206: dload         19
+       208: dadd
+       209: dconst_0
+       210: invokestatic  #136                // Method org/lwjgl/opengl/GL11.glVertex3d:(DDD)V
+       213: dload         11
+       215: dload         15
+       217: dadd
+       218: ldc2_w        #121                // double 256.0d
+       221: ddiv
+       222: dload         13
+       224: ldc2_w        #121                // double 256.0d
+       227: ddiv
+       228: invokestatic  #126                // Method org/lwjgl/opengl/GL11.glTexCoord2d:(DD)V
+       231: aload_0
+       232: getfield      #129                // Field field_78295_j:F
+       235: f2d
+       236: dload         15
+       238: ldc2_w        #139                // double 2.0d
+       241: ddiv
+       242: dadd
+       243: dload         17
+       245: dadd
+       246: aload_0
+       247: getfield      #132                // Field field_78296_k:F
+       250: f2d
+       251: dconst_0
+       252: invokestatic  #136                // Method org/lwjgl/opengl/GL11.glVertex3d:(DDD)V
+       255: dload         11
+       257: dload         15
+       259: dadd
+       260: ldc2_w        #121                // double 256.0d
+       263: ddiv
+       264: dload         13
+       266: ldc2_w        #137                // double 15.98d
+       269: dadd
+       270: ldc2_w        #121                // double 256.0d
+       273: ddiv
+       274: invokestatic  #126                // Method org/lwjgl/opengl/GL11.glTexCoord2d:(DD)V
+       277: aload_0
+       278: getfield      #129                // Field field_78295_j:F
+       281: f2d
+       282: dload         15
+       284: ldc2_w        #139                // double 2.0d
+       287: ddiv
+       288: dadd
+       289: dload         17
+       291: dsub
+       292: aload_0
+       293: getfield      #132                // Field field_78296_k:F
+       296: f2d
+       297: dload         19
+       299: dadd
+       300: dconst_0
+       301: invokestatic  #136                // Method org/lwjgl/opengl/GL11.glVertex3d:(DDD)V
+       304: invokestatic  #143                // Method net/minecraft/client/renderer/GlStateManager.func_187437_J:()V
+       307: aload_0
+       308: getfield      #40                 // Field isSmall:Z
+       311: ifeq          338
+       314: sipush        3553
+       317: sipush        10240
+       320: sipush        9728
+       323: invokestatic  #117                // Method org/lwjgl/opengl/GL11.glTexParameteri:(III)V
+       326: sipush        3553
+       329: sipush        10241
+       332: sipush        9728
+       335: invokestatic  #117                // Method org/lwjgl/opengl/GL11.glTexParameteri:(III)V
+       338: dload         9
+       340: dload         7
+       342: dsub
+       343: ldc2_w        #139                // double 2.0d
+       346: ddiv
+       347: dconst_1
+       348: dadd
+       349: d2f
+       350: freturn
+      StackMapTable: number_of_entries = 5
+        frame_type = 252 /* append */
+          offset_delta = 17
+          locals = [ int ]
+        frame_type = 255 /* full_frame */
+          offset_delta = 81
+          locals = [ class betterquesting/api2/utils/BqFontRenderer, int, int, int, int, int, int, double, double, double, double, double ]
+          stack = []
+        frame_type = 64 /* same_locals_1_stack_item */
+          stack = [ double ]
+        frame_type = 253 /* append */
+          offset_delta = 37
+          locals = [ double, double ]
+        frame_type = 251 /* same_frame_extended */
+          offset_delta = 199
+      LineNumberTable:
+        line 53: 0
+        line 55: 11
+        line 56: 15
+        line 58: 17
+        line 59: 24
+        line 60: 30
+        line 61: 35
+        line 62: 41
+        line 63: 46
+        line 64: 53
+        line 65: 66
+        line 66: 80
+        line 67: 91
+        line 68: 102
+        line 70: 107
+        line 71: 114
+        line 72: 126
+        line 84: 138
+        line 85: 142
+        line 86: 157
+        line 87: 174
+        line 88: 193
+        line 89: 213
+        line 90: 231
+        line 91: 255
+        line 92: 277
+        line 93: 304
+        line 95: 307
+        line 96: 314
+        line 97: 326
+        line 100: 338
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+           24     327     4     j   I
+           35     316     5     k   I
+           41     310     6     l   I
+           46     305     7     f   D
+           53     298     9    f1   D
+           66     285    11    f2   D
+           80     271    13    f3   D
+           91     260    15    f4   D
+          102     249    17    f5   D
+          107     244    19    ys   D
+            0     351     0  this   Lbetterquesting/api2/utils/BqFontRenderer;
+            0     351     1    ch   C
+            0     351     2 italic   Z
+           11     340     3     i   I
+
+  protected float func_78266_a(int, boolean);
+    descriptor: (IZ)F
+    flags: ACC_PROTECTED
+    Code:
+      stack=3, locals=8, args_size=3
+         0: iload_1
+         1: bipush        16
+         3: irem
+         4: bipush        8
+         6: imul
+         7: istore_3
+         8: iload_1
+         9: bipush        16
+        11: idiv
+        12: bipush        8
+        14: imul
+        15: istore        4
+        17: iload_2
+        18: ifeq          25
+        21: iconst_1
+        22: goto          26
+        25: iconst_0
+        26: istore        5
+        28: aload_0
+        29: aload_0
+        30: getfield      #164                // Field field_111273_g:Lnet/minecraft/util/ResourceLocation;
+        33: invokevirtual #168                // Method bindTexture:(Lnet/minecraft/util/ResourceLocation;)V
+        36: aload_0
+        37: getfield      #172                // Field field_78286_d:[I
+        40: iload_1
+        41: iaload
+        42: istore        6
+        44: iload         6
+        46: i2f
+        47: ldc           #173                // float 0.01f
+        49: fsub
+        50: fstore        7
+        52: aload_0
+        53: getfield      #40                 // Field isSmall:Z
+        56: ifeq          83
+        59: sipush        3553
+        62: sipush        10240
+        65: sipush        9729
+        68: invokestatic  #117                // Method org/lwjgl/opengl/GL11.glTexParameteri:(III)V
+        71: sipush        3553
+        74: sipush        10241
+        77: sipush        9729
+        80: invokestatic  #117                // Method org/lwjgl/opengl/GL11.glTexParameteri:(III)V
+        83: iconst_5
+        84: invokestatic  #120                // Method net/minecraft/client/renderer/GlStateManager.func_187447_r:(I)V
+        87: iload_3
+        88: i2f
+        89: ldc           #174                // float 128.0f
+        91: fdiv
+        92: iload         4
+        94: i2f
+        95: ldc           #174                // float 128.0f
+        97: fdiv
+        98: invokestatic  #178                // Method net/minecraft/client/renderer/GlStateManager.func_187426_b:(FF)V
+       101: aload_0
+       102: getfield      #129                // Field field_78295_j:F
+       105: iload         5
+       107: i2f
+       108: fadd
+       109: aload_0
+       110: getfield      #132                // Field field_78296_k:F
+       113: fconst_0
+       114: invokestatic  #181                // Method net/minecraft/client/renderer/GlStateManager.func_187435_e:(FFF)V
+       117: iload_3
+       118: i2f
+       119: ldc           #174                // float 128.0f
+       121: fdiv
+       122: iload         4
+       124: i2f
+       125: ldc           #182                // float 7.99f
+       127: fadd
+       128: ldc           #174                // float 128.0f
+       130: fdiv
+       131: invokestatic  #178                // Method net/minecraft/client/renderer/GlStateManager.func_187426_b:(FF)V
+       134: aload_0
+       135: getfield      #129                // Field field_78295_j:F
+       138: iload         5
+       140: i2f
+       141: fsub
+       142: aload_0
+       143: getfield      #132                // Field field_78296_k:F
+       146: ldc           #182                // float 7.99f
+       148: fadd
+       149: fconst_0
+       150: invokestatic  #181                // Method net/minecraft/client/renderer/GlStateManager.func_187435_e:(FFF)V
+       153: iload_3
+       154: i2f
+       155: fload         7
+       157: fadd
+       158: fconst_1
+       159: fsub
+       160: ldc           #174                // float 128.0f
+       162: fdiv
+       163: iload         4
+       165: i2f
+       166: ldc           #174                // float 128.0f
+       168: fdiv
+       169: invokestatic  #178                // Method net/minecraft/client/renderer/GlStateManager.func_187426_b:(FF)V
+       172: aload_0
+       173: getfield      #129                // Field field_78295_j:F
+       176: fload         7
+       178: fadd
+       179: fconst_1
+       180: fsub
+       181: iload         5
+       183: i2f
+       184: fadd
+       185: aload_0
+       186: getfield      #132                // Field field_78296_k:F
+       189: fconst_0
+       190: invokestatic  #181                // Method net/minecraft/client/renderer/GlStateManager.func_187435_e:(FFF)V
+       193: iload_3
+       194: i2f
+       195: fload         7
+       197: fadd
+       198: fconst_1
+       199: fsub
+       200: ldc           #174                // float 128.0f
+       202: fdiv
+       203: iload         4
+       205: i2f
+       206: ldc           #182                // float 7.99f
+       208: fadd
+       209: ldc           #174                // float 128.0f
+       211: fdiv
+       212: invokestatic  #178                // Method net/minecraft/client/renderer/GlStateManager.func_187426_b:(FF)V
+       215: aload_0
+       216: getfield      #129                // Field field_78295_j:F
+       219: fload         7
+       221: fadd
+       222: fconst_1
+       223: fsub
+       224: iload         5
+       226: i2f
+       227: fsub
+       228: aload_0
+       229: getfield      #132                // Field field_78296_k:F
+       232: ldc           #182                // float 7.99f
+       234: fadd
+       235: fconst_0
+       236: invokestatic  #181                // Method net/minecraft/client/renderer/GlStateManager.func_187435_e:(FFF)V
+       239: invokestatic  #143                // Method net/minecraft/client/renderer/GlStateManager.func_187437_J:()V
+       242: aload_0
+       243: getfield      #40                 // Field isSmall:Z
+       246: ifeq          273
+       249: sipush        3553
+       252: sipush        10240
+       255: sipush        9728
+       258: invokestatic  #117                // Method org/lwjgl/opengl/GL11.glTexParameteri:(III)V
+       261: sipush        3553
+       264: sipush        10241
+       267: sipush        9728
+       270: invokestatic  #117                // Method org/lwjgl/opengl/GL11.glTexParameteri:(III)V
+       273: iload         6
+       275: i2f
+       276: freturn
+      StackMapTable: number_of_entries = 4
+        frame_type = 253 /* append */
+          offset_delta = 25
+          locals = [ int, int ]
+        frame_type = 64 /* same_locals_1_stack_item */
+          stack = [ int ]
+        frame_type = 254 /* append */
+          offset_delta = 56
+          locals = [ int, int, float ]
+        frame_type = 251 /* same_frame_extended */
+          offset_delta = 189
+      LineNumberTable:
+        line 106: 0
+        line 107: 8
+        line 108: 17
+        line 109: 28
+        line 110: 36
+        line 111: 44
+        line 113: 52
+        line 114: 59
+        line 115: 71
+        line 118: 83
+        line 119: 87
+        line 120: 101
+        line 121: 117
+        line 122: 134
+        line 123: 153
+        line 124: 172
+        line 125: 193
+        line 126: 215
+        line 127: 239
+        line 129: 242
+        line 130: 249
+        line 131: 261
+        line 134: 273
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0     277     0  this   Lbetterquesting/api2/utils/BqFontRenderer;
+            0     277     1    ch   I
+            0     277     2 italic   Z
+            8     269     3     i   I
+           17     260     4     j   I
+           28     249     5     k   I
+           44     233     6     l   I
+           52     225     7     f   F
+
+  public java.lang.String func_78262_a(java.lang.String, int, boolean);
+    descriptor: (Ljava/lang/String;IZ)Ljava/lang/String;
+    flags: ACC_PUBLIC
+    Code:
+      stack=3, locals=13, args_size=4
+         0: new           #207                // class java/lang/StringBuilder
+         3: dup
+         4: invokespecial #209                // Method java/lang/StringBuilder."<init>":()V
+         7: astore        4
+         9: iconst_0
+        10: istore        5
+        12: iload_3
+        13: ifeq          25
+        16: aload_1
+        17: invokevirtual #213                // Method java/lang/String.length:()I
+        20: iconst_1
+        21: isub
+        22: goto          26
+        25: iconst_0
+        26: istore        6
+        28: iload_3
+        29: ifeq          36
+        32: iconst_m1
+        33: goto          37
+        36: iconst_1
+        37: istore        7
+        39: iconst_0
+        40: istore        8
+        42: iconst_0
+        43: istore        9
+        45: iload         6
+        47: istore        10
+        49: iload         10
+        51: iflt          210
+        54: iload         10
+        56: aload_1
+        57: invokevirtual #213                // Method java/lang/String.length:()I
+        60: if_icmpge     210
+        63: iload         5
+        65: iload_2
+        66: if_icmpge     210
+        69: aload_1
+        70: iload         10
+        72: invokevirtual #217                // Method java/lang/String.charAt:(I)C
+        75: istore        11
+        77: aload_0
+        78: iload         11
+        80: invokevirtual #221                // Method func_78263_a:(C)I
+        83: istore        12
+        85: iload         8
+        87: ifeq          141
+        90: iconst_0
+        91: istore        8
+        93: iload         11
+        95: bipush        108
+        97: if_icmpeq     135
+       100: iload         11
+       102: bipush        76
+       104: if_icmpeq     135
+       107: iload         11
+       109: bipush        114
+       111: if_icmpeq     129
+       114: iload         11
+       116: bipush        82
+       118: if_icmpeq     129
+       121: iload         11
+       123: invokestatic  #225                // Method isFormatColor:(C)Z
+       126: ifeq          167
+       129: iconst_0
+       130: istore        9
+       132: goto          167
+       135: iconst_1
+       136: istore        9
+       138: goto          167
+       141: iload         12
+       143: ifge          152
+       146: iconst_1
+       147: istore        8
+       149: goto          167
+       152: iload         5
+       154: iload         12
+       156: iadd
+       157: istore        5
+       159: iload         9
+       161: ifeq          167
+       164: iinc          5, 1
+       167: iload         5
+       169: iload_2
+       170: if_icmple     176
+       173: goto          210
+       176: iload_3
+       177: ifeq          192
+       180: aload         4
+       182: iconst_0
+       183: iload         11
+       185: invokevirtual #229                // Method java/lang/StringBuilder.insert:(IC)Ljava/lang/StringBuilder;
+       188: pop
+       189: goto          200
+       192: aload         4
+       194: iload         11
+       196: invokevirtual #233                // Method java/lang/StringBuilder.append:(C)Ljava/lang/StringBuilder;
+       199: pop
+       200: iload         10
+       202: iload         7
+       204: iadd
+       205: istore        10
+       207: goto          49
+       210: aload         4
+       212: invokevirtual #237                // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+       215: areturn
+      StackMapTable: number_of_entries = 14
+        frame_type = 253 /* append */
+          offset_delta = 25
+          locals = [ class java/lang/StringBuilder, int ]
+        frame_type = 64 /* same_locals_1_stack_item */
+          stack = [ int ]
+        frame_type = 252 /* append */
+          offset_delta = 9
+          locals = [ int ]
+        frame_type = 64 /* same_locals_1_stack_item */
+          stack = [ int ]
+        frame_type = 255 /* full_frame */
+          offset_delta = 11
+          locals = [ class betterquesting/api2/utils/BqFontRenderer, class java/lang/String, int, int, class java/lang/StringBuilder, int, int, int, int, int, int ]
+          stack = []
+        frame_type = 253 /* append */
+          offset_delta = 79
+          locals = [ int, int ]
+        frame_type = 5 /* same */
+        frame_type = 5 /* same */
+        frame_type = 10 /* same */
+        frame_type = 14 /* same */
+        frame_type = 8 /* same */
+        frame_type = 15 /* same */
+        frame_type = 249 /* chop */
+          offset_delta = 7
+        frame_type = 250 /* chop */
+          offset_delta = 9
+      LineNumberTable:
+        line 152: 0
+        line 153: 9
+        line 154: 12
+        line 155: 28
+        line 156: 39
+        line 157: 42
+        line 159: 45
+        line 160: 69
+        line 161: 77
+        line 163: 85
+        line 164: 90
+        line 166: 93
+        line 167: 107
+        line 168: 129
+        line 171: 135
+        line 173: 141
+        line 174: 146
+        line 176: 152
+        line 178: 159
+        line 179: 164
+        line 183: 167
+        line 184: 173
+        line 187: 176
+        line 188: 180
+        line 190: 192
+        line 159: 200
+        line 194: 210
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+           77     123    11    c0   C
+           85     115    12    i1   I
+           49     161    10     l   I
+            0     216     0  this   Lbetterquesting/api2/utils/BqFontRenderer;
+            0     216     1  text   Ljava/lang/String;
+            0     216     2 width   I
+            0     216     3 reverse   Z
+            9     207     4 stringbuilder   Ljava/lang/StringBuilder;
+           12     204     5     i   I
+           28     188     6     j   I
+           39     177     7     k   I
+           42     174     8  flag   Z
+           45     171     9 flag1   Z
+
+  public int func_78256_a(java.lang.String);
+    descriptor: (Ljava/lang/String;)I
+    flags: ACC_PUBLIC
+    Code:
+      stack=3, locals=7, args_size=2
+         0: aload_1
+         1: ifnonnull     6
+         4: iconst_0
+         5: ireturn
+         6: iconst_0
+         7: istore_2
+         8: iconst_0
+         9: istore_3
+        10: iconst_0
+        11: istore        4
+        13: iload         4
+        15: aload_1
+        16: invokevirtual #213                // Method java/lang/String.length:()I
+        19: if_icmpge     134
+        22: aload_1
+        23: iload         4
+        25: invokevirtual #217                // Method java/lang/String.charAt:(I)C
+        28: istore        5
+        30: aload_0
+        31: iload         5
+        33: invokevirtual #221                // Method func_78263_a:(C)I
+        36: istore        6
+        38: iload         6
+        40: ifge          111
+        43: iload         4
+        45: aload_1
+        46: invokevirtual #213                // Method java/lang/String.length:()I
+        49: iconst_1
+        50: isub
+        51: if_icmpge     111
+        54: iinc          4, 1
+        57: aload_1
+        58: iload         4
+        60: invokevirtual #217                // Method java/lang/String.charAt:(I)C
+        63: istore        5
+        65: iload         5
+        67: bipush        108
+        69: if_icmpeq     106
+        72: iload         5
+        74: bipush        76
+        76: if_icmpeq     106
+        79: iload         5
+        81: bipush        114
+        83: if_icmpeq     101
+        86: iload         5
+        88: bipush        82
+        90: if_icmpeq     101
+        93: iload         5
+        95: invokestatic  #225                // Method isFormatColor:(C)Z
+        98: ifeq          108
+       101: iconst_0
+       102: istore_3
+       103: goto          108
+       106: iconst_1
+       107: istore_3
+       108: iconst_0
+       109: istore        6
+       111: iload_2
+       112: iload         6
+       114: iadd
+       115: istore_2
+       116: iload_3
+       117: ifeq          128
+       120: iload         6
+       122: ifle          128
+       125: iinc          2, 1
+       128: iinc          4, 1
+       131: goto          13
+       134: iload_2
+       135: ireturn
+      StackMapTable: number_of_entries = 8
+        frame_type = 6 /* same */
+        frame_type = 254 /* append */
+          offset_delta = 6
+          locals = [ int, int, int ]
+        frame_type = 253 /* append */
+          offset_delta = 87
+          locals = [ int, int ]
+        frame_type = 4 /* same */
+        frame_type = 1 /* same */
+        frame_type = 2 /* same */
+        frame_type = 249 /* chop */
+          offset_delta = 16
+        frame_type = 250 /* chop */
+          offset_delta = 5
+      LineNumberTable:
+        line 199: 0
+        line 200: 4
+        line 202: 6
+        line 203: 8
+        line 205: 10
+        line 206: 22
+        line 207: 30
+        line 209: 38
+        line 210: 54
+        line 211: 57
+        line 213: 65
+        line 214: 79
+        line 215: 101
+        line 218: 106
+        line 221: 108
+        line 224: 111
+        line 226: 116
+        line 227: 125
+        line 205: 128
+        line 231: 134
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+           30      98     5    c0   C
+           38      90     6     k   I
+           13     121     4     j   I
+            8     128     2     i   I
+           10     126     3  flag   Z
+            0     136     0  this   Lbetterquesting/api2/utils/BqFontRenderer;
+            0     136     1  text   Ljava/lang/String;
+
+  public static boolean isFormatColor(char);
+    descriptor: (C)Z
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=2, locals=1, args_size=1
+         0: iload_0
+         1: bipush        48
+         3: if_icmplt     12
+         6: iload_0
+         7: bipush        57
+         9: if_icmple     36
+        12: iload_0
+        13: bipush        97
+        15: if_icmplt     24
+        18: iload_0
+        19: bipush        102
+        21: if_icmple     36
+        24: iload_0
+        25: bipush        65
+        27: if_icmplt     40
+        30: iload_0
+        31: bipush        70
+        33: if_icmpgt     40
+        36: iconst_1
+        37: goto          41
+        40: iconst_0
+        41: ireturn
+      StackMapTable: number_of_entries = 5
+        frame_type = 12 /* same */
+        frame_type = 11 /* same */
+        frame_type = 11 /* same */
+        frame_type = 3 /* same */
+        frame_type = 64 /* same_locals_1_stack_item */
+          stack = [ int ]
+      LineNumberTable:
+        line 236: 0
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      42     0 colorChar   C
+
+  static {};
+    descriptor: ()V
+    flags: ACC_STATIC
+    Code:
+      stack=3, locals=0, args_size=0
+         0: new           #2                  // class betterquesting/api2/utils/BqFontRenderer
+         3: dup
+         4: iconst_1
+         5: invokespecial #251                // Method "<init>":(Z)V
+         8: putstatic     #253                // Field FONT_UNICODE:Lbetterquesting/api2/utils/BqFontRenderer;
+        11: new           #2                  // class betterquesting/api2/utils/BqFontRenderer
+        14: dup
+        15: iconst_0
+        16: invokespecial #251                // Method "<init>":(Z)V
+        19: putstatic     #255                // Field FONT_STANDARD:Lbetterquesting/api2/utils/BqFontRenderer;
+        22: sipush        256
+        25: anewarray     #26                 // class net/minecraft/util/ResourceLocation
+        28: putstatic     #186                // Field UNICODE_PAGE_LOCATIONS:[Lnet/minecraft/util/ResourceLocation;
+        31: return
+      LineNumberTable:
+        line 11: 0
+        line 12: 11
+        line 14: 22
+}
+SourceFile: "BqFontRenderer.java"
