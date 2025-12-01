@@ -36,9 +36,7 @@ dependencies {
 jar {
     manifest {
         attributes(
-            'ModSide': 'CLIENT',
-            'TweakClass': '',
-            'ForceLoadAsMod': 'true'
+            'ModSide': 'CLIENT'
         )
     }
 }
