@@ -5,6 +5,7 @@ import net.minecraftforge.fml.relauncher.IFMLLoadingPlugin;
 
 @IFMLLoadingPlugin.Name("BQFontFix")
 @IFMLLoadingPlugin.MCVersion("1.12.2")
+@IFMLLoadingPlugin.TransformerExclusions({"bqfontfix.core"})
 public class BQFontFixCoremod implements IFMLLoadingPlugin {
 
     @Override
