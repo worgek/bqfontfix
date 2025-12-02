@@ -5,8 +5,9 @@ Import: net.minecraftforge.fml.relauncher.IFMLLoadingPlugin
 Import: java.util.Map
 End  Processing: bqfontfix/BQFontFixCoremod.java
 
-Start Processing: bqfontfix/DiscoveryTransformer.java
+Start Processing: bqfontfix/BQPatchTextRenderer.java
+FOUND CONSTR method bqfontfix/BQPatchTextRenderer/StripTexParamCalls/StripTexParamCalls (ILorg/objectweb/asm/MethodVisitor;)V bqfontfix/BQPatchTextRenderer/StripTexParamCalls
 Import: net.minecraft.launchwrapper.IClassTransformer
-Import: net.minecraftforge.fml.common.FMLLog
-End  Processing: bqfontfix/DiscoveryTransformer.java
+Import: org.objectweb.asm.*
+End  Processing: bqfontfix/BQPatchTextRenderer.java
 

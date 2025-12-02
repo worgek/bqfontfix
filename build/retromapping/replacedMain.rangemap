@@ -3,7 +3,7 @@ Unsupposrted library path: /workspaces/bqfontfix/build/classes/java/api
 Unsupposrted library path: /workspaces/bqfontfix/build/resources/api
 Symbol range map extraction starting
 Processing 2 files
-startProcessing "bqfontfix/BQFontFixCoremod.java" md5: 588801c94ad8e1db1c2c56fa3244d2c9
+startProcessing "bqfontfix/BQFontFixCoremod.java" md5: 32bbf061e4fb98e792e9d977e27e9eae
 @|bqfontfix/BQFontFixCoremod.java|8|17|bqfontfix|package|bqfontfix|(file)
 Class Start: bqfontfix.BQFontFixCoremod
    @|bqfontfix/BQFontFixCoremod.java|104|131|IFMLLoadingPlugin.MCVersion|class|net.minecraftforge.fml.relauncher.IFMLLoadingPlugin.MCVersion|false
@@ -16,74 +16,140 @@ Class Start: bqfontfix.BQFontFixCoremod
       @|bqfontfix/BQFontFixCoremod.java|283|289|String|class|java.lang.String|false
    Method End: getASMTransformerClass()[Ljava/lang/String;
    Method Start: getModContainerClass()Ljava/lang/String;
-      @|bqfontfix/BQFontFixCoremod.java|368|376|Override|class|java.lang.Override|false
-      @|bqfontfix/BQFontFixCoremod.java|384|390|String|class|java.lang.String|false
-      @|bqfontfix/BQFontFixCoremod.java|391|411|getModContainerClass|method|net.minecraftforge.fml.relauncher.IFMLLoadingPlugin|getModContainerClass|()Ljava/lang/String;
+      @|bqfontfix/BQFontFixCoremod.java|367|375|Override|class|java.lang.Override|false
+      @|bqfontfix/BQFontFixCoremod.java|383|389|String|class|java.lang.String|false
+      @|bqfontfix/BQFontFixCoremod.java|390|410|getModContainerClass|method|net.minecraftforge.fml.relauncher.IFMLLoadingPlugin|getModContainerClass|()Ljava/lang/String;
    Method End: getModContainerClass()Ljava/lang/String;
    Method Start: getSetupClass()Ljava/lang/String;
-      @|bqfontfix/BQFontFixCoremod.java|456|464|Override|class|java.lang.Override|false
-      @|bqfontfix/BQFontFixCoremod.java|472|478|String|class|java.lang.String|false
-      @|bqfontfix/BQFontFixCoremod.java|479|492|getSetupClass|method|net.minecraftforge.fml.relauncher.IFMLLoadingPlugin|getSetupClass|()Ljava/lang/String;
+      @|bqfontfix/BQFontFixCoremod.java|455|463|Override|class|java.lang.Override|false
+      @|bqfontfix/BQFontFixCoremod.java|471|477|String|class|java.lang.String|false
+      @|bqfontfix/BQFontFixCoremod.java|478|491|getSetupClass|method|net.minecraftforge.fml.relauncher.IFMLLoadingPlugin|getSetupClass|()Ljava/lang/String;
    Method End: getSetupClass()Ljava/lang/String;
    Method Start: injectData(Ljava/util/Map;)V
-      @|bqfontfix/BQFontFixCoremod.java|593|597|data|param|bqfontfix.BQFontFixCoremod|injectData|(Ljava/util/Map;)V|data|0
-      @|bqfontfix/BQFontFixCoremod.java|541|549|Override|class|java.lang.Override|false
-      @|bqfontfix/BQFontFixCoremod.java|562|572|injectData|method|net.minecraftforge.fml.relauncher.IFMLLoadingPlugin|injectData|(Ljava/util/Map;)V
-      @|bqfontfix/BQFontFixCoremod.java|573|576|Map|class|java.util.Map|false
-      @|bqfontfix/BQFontFixCoremod.java|577|583|String|class|java.lang.String|false
-      @|bqfontfix/BQFontFixCoremod.java|585|591|Object|class|java.lang.Object|false
+      @|bqfontfix/BQFontFixCoremod.java|592|596|data|param|bqfontfix.BQFontFixCoremod|injectData|(Ljava/util/Map;)V|data|0
+      @|bqfontfix/BQFontFixCoremod.java|540|548|Override|class|java.lang.Override|false
+      @|bqfontfix/BQFontFixCoremod.java|561|571|injectData|method|net.minecraftforge.fml.relauncher.IFMLLoadingPlugin|injectData|(Ljava/util/Map;)V
+      @|bqfontfix/BQFontFixCoremod.java|572|575|Map|class|java.util.Map|false
+      @|bqfontfix/BQFontFixCoremod.java|576|582|String|class|java.lang.String|false
+      @|bqfontfix/BQFontFixCoremod.java|584|590|Object|class|java.lang.Object|false
    Method End: injectData(Ljava/util/Map;)V
    Method Start: getAccessTransformerClass()Ljava/lang/String;
-      @|bqfontfix/BQFontFixCoremod.java|635|643|Override|class|java.lang.Override|false
-      @|bqfontfix/BQFontFixCoremod.java|651|657|String|class|java.lang.String|false
-      @|bqfontfix/BQFontFixCoremod.java|658|683|getAccessTransformerClass|method|net.minecraftforge.fml.relauncher.IFMLLoadingPlugin|getAccessTransformerClass|()Ljava/lang/String;
+      @|bqfontfix/BQFontFixCoremod.java|634|642|Override|class|java.lang.Override|false
+      @|bqfontfix/BQFontFixCoremod.java|650|656|String|class|java.lang.String|false
+      @|bqfontfix/BQFontFixCoremod.java|657|682|getAccessTransformerClass|method|net.minecraftforge.fml.relauncher.IFMLLoadingPlugin|getAccessTransformerClass|()Ljava/lang/String;
    Method End: getAccessTransformerClass()Ljava/lang/String;
 Class End  : bqfontfix.BQFontFixCoremod
 endProcessing "bqfontfix/BQFontFixCoremod.java"
 
-startProcessing "bqfontfix/DiscoveryTransformer.java" md5: 4ec8e81a1c3c9b3a0ff0c2d51f1a614a
-@|bqfontfix/DiscoveryTransformer.java|8|17|bqfontfix|package|bqfontfix|(file)
-Class Start: bqfontfix.DiscoveryTransformer
-   @|bqfontfix/DiscoveryTransformer.java|133|153|DiscoveryTransformer|class|bqfontfix.DiscoveryTransformer|false
-   @|bqfontfix/DiscoveryTransformer.java|165|182|IClassTransformer|class|net.minecraft.launchwrapper.IClassTransformer|false
+startProcessing "bqfontfix/BQPatchTextRenderer.java" md5: a6d34ee99d7e76d54af013a611a8fb17
+@|bqfontfix/BQPatchTextRenderer.java|8|17|bqfontfix|package|bqfontfix|(file)
+Class Start: bqfontfix.BQPatchTextRenderer
+   @|bqfontfix/BQPatchTextRenderer.java|116|135|BQPatchTextRenderer|class|bqfontfix.BQPatchTextRenderer|false
+   @|bqfontfix/BQPatchTextRenderer.java|147|164|IClassTransformer|class|net.minecraft.launchwrapper.IClassTransformer|false
+   @|bqfontfix/BQPatchTextRenderer.java|193|199|String|class|java.lang.String|false
+   @|bqfontfix/BQPatchTextRenderer.java|193|199|String|class|java.lang.String|false
+   @|bqfontfix/BQPatchTextRenderer.java|200|206|TARGET|field|bqfontfix.BQPatchTextRenderer|TARGET|
    Method Start: transform(Ljava/lang/String;Ljava/lang/String;[B)[B
-      @|bqfontfix/DiscoveryTransformer.java|239|243|name|param|bqfontfix.DiscoveryTransformer|transform|(Ljava/lang/String;Ljava/lang/String;[B)[B|name|0
-      @|bqfontfix/DiscoveryTransformer.java|252|267|transformedName|param|bqfontfix.DiscoveryTransformer|transform|(Ljava/lang/String;Ljava/lang/String;[B)[B|transformedName|1
-      @|bqfontfix/DiscoveryTransformer.java|276|286|basicClass|param|bqfontfix.DiscoveryTransformer|transform|(Ljava/lang/String;Ljava/lang/String;[B)[B|basicClass|2
-      @|bqfontfix/DiscoveryTransformer.java|191|199|Override|class|java.lang.Override|false
-      @|bqfontfix/DiscoveryTransformer.java|222|231|transform|method|net.minecraft.launchwrapper.IClassTransformer|transform|(Ljava/lang/String;Ljava/lang/String;[B)[B
-      @|bqfontfix/DiscoveryTransformer.java|232|238|String|class|java.lang.String|false
-      @|bqfontfix/DiscoveryTransformer.java|245|251|String|class|java.lang.String|false
-      @|bqfontfix/DiscoveryTransformer.java|311|315|name|param|bqfontfix.DiscoveryTransformer|transform|(Ljava/lang/String;Ljava/lang/String;[B)[B|name|0
-      @|bqfontfix/DiscoveryTransformer.java|327|337|basicClass|param|bqfontfix.DiscoveryTransformer|transform|(Ljava/lang/String;Ljava/lang/String;[B)[B|basicClass|2
-      @|bqfontfix/DiscoveryTransformer.java|354|364|basicClass|param|bqfontfix.DiscoveryTransformer|transform|(Ljava/lang/String;Ljava/lang/String;[B)[B|basicClass|2
-      @|bqfontfix/DiscoveryTransformer.java|475|479|name|param|bqfontfix.DiscoveryTransformer|transform|(Ljava/lang/String;Ljava/lang/String;[B)[B|name|0
-      @|bqfontfix/DiscoveryTransformer.java|480|488|contains|method|java.lang.String|contains|(Ljava/lang/CharSequence;)Z
-      @|bqfontfix/DiscoveryTransformer.java|500|504|name|param|bqfontfix.DiscoveryTransformer|transform|(Ljava/lang/String;Ljava/lang/String;[B)[B|name|0
-      @|bqfontfix/DiscoveryTransformer.java|505|513|contains|method|java.lang.String|contains|(Ljava/lang/CharSequence;)Z
-      @|bqfontfix/DiscoveryTransformer.java|569|575|FMLLog|class|net.minecraftforge.fml.common.FMLLog|false
-      @|bqfontfix/DiscoveryTransformer.java|576|579|log|field|net.minecraftforge.fml.common.FMLLog|log
-      @|bqfontfix/DiscoveryTransformer.java|580|584|info|method|org.apache.logging.log4j.Logger|info|(Ljava/lang/String;)V
-      @|bqfontfix/DiscoveryTransformer.java|613|617|name|param|bqfontfix.DiscoveryTransformer|transform|(Ljava/lang/String;Ljava/lang/String;[B)[B|name|0
-      @|bqfontfix/DiscoveryTransformer.java|631|646|transformedName|param|bqfontfix.DiscoveryTransformer|transform|(Ljava/lang/String;Ljava/lang/String;[B)[B|transformedName|1
-      @|bqfontfix/DiscoveryTransformer.java|900|904|name|param|bqfontfix.DiscoveryTransformer|transform|(Ljava/lang/String;Ljava/lang/String;[B)[B|name|0
-      @|bqfontfix/DiscoveryTransformer.java|905|915|startsWith|method|java.lang.String|startsWith|(Ljava/lang/String;)Z
-      @|bqfontfix/DiscoveryTransformer.java|1027|1033|FMLLog|class|net.minecraftforge.fml.common.FMLLog|false
-      @|bqfontfix/DiscoveryTransformer.java|1034|1037|log|field|net.minecraftforge.fml.common.FMLLog|log
-      @|bqfontfix/DiscoveryTransformer.java|1038|1042|info|method|org.apache.logging.log4j.Logger|info|(Ljava/lang/String;)V
-      @|bqfontfix/DiscoveryTransformer.java|1065|1069|name|param|bqfontfix.DiscoveryTransformer|transform|(Ljava/lang/String;Ljava/lang/String;[B)[B|name|0
-      @|bqfontfix/DiscoveryTransformer.java|1083|1098|transformedName|param|bqfontfix.DiscoveryTransformer|transform|(Ljava/lang/String;Ljava/lang/String;[B)[B|transformedName|1
-      @|bqfontfix/DiscoveryTransformer.java|1455|1459|name|param|bqfontfix.DiscoveryTransformer|transform|(Ljava/lang/String;Ljava/lang/String;[B)[B|name|0
-      @|bqfontfix/DiscoveryTransformer.java|1460|1466|length|method|java.lang.CharSequence|length|()I
-      @|bqfontfix/DiscoveryTransformer.java|1478|1482|name|param|bqfontfix.DiscoveryTransformer|transform|(Ljava/lang/String;Ljava/lang/String;[B)[B|name|0
-      @|bqfontfix/DiscoveryTransformer.java|1483|1491|contains|method|java.lang.String|contains|(Ljava/lang/CharSequence;)Z
-      @|bqfontfix/DiscoveryTransformer.java|1616|1622|FMLLog|class|net.minecraftforge.fml.common.FMLLog|false
-      @|bqfontfix/DiscoveryTransformer.java|1623|1626|log|field|net.minecraftforge.fml.common.FMLLog|log
-      @|bqfontfix/DiscoveryTransformer.java|1627|1631|info|method|org.apache.logging.log4j.Logger|info|(Ljava/lang/String;)V
-      @|bqfontfix/DiscoveryTransformer.java|1662|1666|name|param|bqfontfix.DiscoveryTransformer|transform|(Ljava/lang/String;Ljava/lang/String;[B)[B|name|0
-      @|bqfontfix/DiscoveryTransformer.java|1680|1695|transformedName|param|bqfontfix.DiscoveryTransformer|transform|(Ljava/lang/String;Ljava/lang/String;[B)[B|transformedName|1
-      @|bqfontfix/DiscoveryTransformer.java|1964|1974|basicClass|param|bqfontfix.DiscoveryTransformer|transform|(Ljava/lang/String;Ljava/lang/String;[B)[B|basicClass|2
+      @|bqfontfix/BQPatchTextRenderer.java|341|345|name|param|bqfontfix.BQPatchTextRenderer|transform|(Ljava/lang/String;Ljava/lang/String;[B)[B|name|0
+      @|bqfontfix/BQPatchTextRenderer.java|354|369|transformedName|param|bqfontfix.BQPatchTextRenderer|transform|(Ljava/lang/String;Ljava/lang/String;[B)[B|transformedName|1
+      @|bqfontfix/BQPatchTextRenderer.java|378|388|basicClass|param|bqfontfix.BQPatchTextRenderer|transform|(Ljava/lang/String;Ljava/lang/String;[B)[B|basicClass|2
+      @|bqfontfix/BQPatchTextRenderer.java|289|297|Override|class|java.lang.Override|false
+      @|bqfontfix/BQPatchTextRenderer.java|324|333|transform|method|net.minecraft.launchwrapper.IClassTransformer|transform|(Ljava/lang/String;Ljava/lang/String;[B)[B
+      @|bqfontfix/BQPatchTextRenderer.java|334|340|String|class|java.lang.String|false
+      @|bqfontfix/BQPatchTextRenderer.java|347|353|String|class|java.lang.String|false
+      @|bqfontfix/BQPatchTextRenderer.java|416|420|name|param|bqfontfix.BQPatchTextRenderer|transform|(Ljava/lang/String;Ljava/lang/String;[B)[B|name|0
+      @|bqfontfix/BQPatchTextRenderer.java|432|442|basicClass|param|bqfontfix.BQPatchTextRenderer|transform|(Ljava/lang/String;Ljava/lang/String;[B)[B|basicClass|2
+      @|bqfontfix/BQPatchTextRenderer.java|459|469|basicClass|param|bqfontfix.BQPatchTextRenderer|transform|(Ljava/lang/String;Ljava/lang/String;[B)[B|basicClass|2
+      @|bqfontfix/BQPatchTextRenderer.java|505|509|name|param|bqfontfix.BQPatchTextRenderer|transform|(Ljava/lang/String;Ljava/lang/String;[B)[B|name|0
+      @|bqfontfix/BQPatchTextRenderer.java|510|516|equals|method|java.lang.String|equals|(Ljava/lang/Object;)Z
+      @|bqfontfix/BQPatchTextRenderer.java|517|523|TARGET|field|bqfontfix.BQPatchTextRenderer|TARGET
+      @|bqfontfix/BQPatchTextRenderer.java|533|543|basicClass|param|bqfontfix.BQPatchTextRenderer|transform|(Ljava/lang/String;Ljava/lang/String;[B)[B|basicClass|2
+      @|bqfontfix/BQPatchTextRenderer.java|636|647|ClassReader|class|org.objectweb.asm.ClassReader|false
+      @|bqfontfix/BQPatchTextRenderer.java|657|668|ClassReader|class|org.objectweb.asm.ClassReader|false
+      @|bqfontfix/BQPatchTextRenderer.java|669|679|basicClass|param|bqfontfix.BQPatchTextRenderer|transform|(Ljava/lang/String;Ljava/lang/String;[B)[B|basicClass|2
+      @|bqfontfix/BQPatchTextRenderer.java|742|753|ClassWriter|class|org.objectweb.asm.ClassWriter|false
+      @|bqfontfix/BQPatchTextRenderer.java|763|774|ClassWriter|class|org.objectweb.asm.ClassWriter|false
+      @|bqfontfix/BQPatchTextRenderer.java|775|786|ClassWriter|class|org.objectweb.asm.ClassWriter|false
+      @|bqfontfix/BQPatchTextRenderer.java|787|801|COMPUTE_FRAMES|field|org.objectweb.asm.ClassWriter|COMPUTE_FRAMES
+      @|bqfontfix/BQPatchTextRenderer.java|877|889|ClassVisitor|class|org.objectweb.asm.ClassVisitor|false
+      @|bqfontfix/BQPatchTextRenderer.java|899|911|ClassVisitor|class|org.objectweb.asm.ClassVisitor|false
+      @|bqfontfix/BQPatchTextRenderer.java|912|919|Opcodes|class|org.objectweb.asm.Opcodes|false
+      @|bqfontfix/BQPatchTextRenderer.java|920|924|ASM5|field|org.objectweb.asm.Opcodes|ASM5
+      Anon Class Start: bqfontfix.BQPatchTextRenderer$1
+         Method Start: visitMethod(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)Lorg/objectweb/asm/MethodVisitor;
+            @|bqfontfix/BQPatchTextRenderer.java|1171|1177|access|param|bqfontfix.BQPatchTextRenderer$1|visitMethod|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)Lorg/objectweb/asm/MethodVisitor;|access|0
+            @|bqfontfix/BQPatchTextRenderer.java|1186|1196|methodName|param|bqfontfix.BQPatchTextRenderer$1|visitMethod|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)Lorg/objectweb/asm/MethodVisitor;|methodName|1
+            @|bqfontfix/BQPatchTextRenderer.java|1205|1209|desc|param|bqfontfix.BQPatchTextRenderer$1|visitMethod|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)Lorg/objectweb/asm/MethodVisitor;|desc|2
+            @|bqfontfix/BQPatchTextRenderer.java|1371|1380|signature|param|bqfontfix.BQPatchTextRenderer$1|visitMethod|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)Lorg/objectweb/asm/MethodVisitor;|signature|3
+            @|bqfontfix/BQPatchTextRenderer.java|1391|1401|exceptions|param|bqfontfix.BQPatchTextRenderer$1|visitMethod|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)Lorg/objectweb/asm/MethodVisitor;|exceptions|4
+            @|bqfontfix/BQPatchTextRenderer.java|1021|1029|Override|class|java.lang.Override|false
+            @|bqfontfix/BQPatchTextRenderer.java|1141|1154|MethodVisitor|class|org.objectweb.asm.MethodVisitor|false
+            @|bqfontfix/BQPatchTextRenderer.java|1155|1166|visitMethod|method|org.objectweb.asm.ClassVisitor|visitMethod|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)Lorg/objectweb/asm/MethodVisitor;
+            @|bqfontfix/BQPatchTextRenderer.java|1179|1185|String|class|java.lang.String|false
+            @|bqfontfix/BQPatchTextRenderer.java|1198|1204|String|class|java.lang.String|false
+            @|bqfontfix/BQPatchTextRenderer.java|1364|1370|String|class|java.lang.String|false
+            @|bqfontfix/BQPatchTextRenderer.java|1382|1388|String|class|java.lang.String|false
+            @|bqfontfix/BQPatchTextRenderer.java|1578|1591|MethodVisitor|class|org.objectweb.asm.MethodVisitor|false
+            @|bqfontfix/BQPatchTextRenderer.java|1603|1614|visitMethod|method|org.objectweb.asm.ClassVisitor|visitMethod|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)Lorg/objectweb/asm/MethodVisitor;
+            @|bqfontfix/BQPatchTextRenderer.java|1615|1621|access|param|bqfontfix.BQPatchTextRenderer$1|visitMethod|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)Lorg/objectweb/asm/MethodVisitor;|access|0
+            @|bqfontfix/BQPatchTextRenderer.java|1623|1633|methodName|param|bqfontfix.BQPatchTextRenderer$1|visitMethod|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)Lorg/objectweb/asm/MethodVisitor;|methodName|1
+            @|bqfontfix/BQPatchTextRenderer.java|1635|1639|desc|param|bqfontfix.BQPatchTextRenderer$1|visitMethod|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)Lorg/objectweb/asm/MethodVisitor;|desc|2
+            @|bqfontfix/BQPatchTextRenderer.java|1641|1650|signature|param|bqfontfix.BQPatchTextRenderer$1|visitMethod|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)Lorg/objectweb/asm/MethodVisitor;|signature|3
+            @|bqfontfix/BQPatchTextRenderer.java|1652|1662|exceptions|param|bqfontfix.BQPatchTextRenderer$1|visitMethod|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)Lorg/objectweb/asm/MethodVisitor;|exceptions|4
+            @|bqfontfix/BQPatchTextRenderer.java|1869|1887|StripTexParamCalls|class|bqfontfix.BQPatchTextRenderer.StripTexParamCalls|false
+            @|bqfontfix/BQPatchTextRenderer.java|1888|1895|Opcodes|class|org.objectweb.asm.Opcodes|false
+            @|bqfontfix/BQPatchTextRenderer.java|1896|1900|ASM5|field|org.objectweb.asm.Opcodes|ASM5
+         Method End: visitMethod(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)Lorg/objectweb/asm/MethodVisitor;
+      Anon Class End: bqfontfix.BQPatchTextRenderer$1
+      @|bqfontfix/BQPatchTextRenderer.java|2579|2585|accept|method|org.objectweb.asm.ClassReader|accept|(Lorg/objectweb/asm/ClassVisitor;I)V
+      @|bqfontfix/BQPatchTextRenderer.java|2590|2601|ClassReader|class|org.objectweb.asm.ClassReader|false
+      @|bqfontfix/BQPatchTextRenderer.java|2602|2613|SKIP_FRAMES|field|org.objectweb.asm.ClassReader|SKIP_FRAMES
+      @|bqfontfix/BQPatchTextRenderer.java|2871|2882|toByteArray|method|org.objectweb.asm.ClassWriter|toByteArray|()[B
+      @|bqfontfix/BQPatchTextRenderer.java|3149|3158|Exception|class|java.lang.Exception|false
+      @|bqfontfix/BQPatchTextRenderer.java|3429|3435|System|class|java.lang.System|false
+      @|bqfontfix/BQPatchTextRenderer.java|3436|3439|out|field|java.lang.System|out
+      @|bqfontfix/BQPatchTextRenderer.java|3440|3447|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|bqfontfix/BQPatchTextRenderer.java|3760|3770|basicClass|param|bqfontfix.BQPatchTextRenderer|transform|(Ljava/lang/String;Ljava/lang/String;[B)[B|basicClass|2
    Method End: transform(Ljava/lang/String;Ljava/lang/String;[B)[B
-Class End  : bqfontfix.DiscoveryTransformer
-endProcessing "bqfontfix/DiscoveryTransformer.java"
+   Class Start: bqfontfix.BQPatchTextRenderer.StripTexParamCalls
+      @|bqfontfix/BQPatchTextRenderer.java|4665|4683|StripTexParamCalls|class|bqfontfix.BQPatchTextRenderer.StripTexParamCalls|false
+      @|bqfontfix/BQPatchTextRenderer.java|4692|4705|MethodVisitor|class|org.objectweb.asm.MethodVisitor|false
+      Method Start: StripTexParamCalls(ILorg/objectweb/asm/MethodVisitor;)V
+         @|bqfontfix/BQPatchTextRenderer.java|5040|5043|api|param|bqfontfix.BQPatchTextRenderer.StripTexParamCalls|StripTexParamCalls|(ILorg/objectweb/asm/MethodVisitor;)V|api|0
+         @|bqfontfix/BQPatchTextRenderer.java|5059|5061|mv|param|bqfontfix.BQPatchTextRenderer.StripTexParamCalls|StripTexParamCalls|(ILorg/objectweb/asm/MethodVisitor;)V|mv|1
+         @|bqfontfix/BQPatchTextRenderer.java|5017|5035|StripTexParamCalls|method|bqfontfix.BQPatchTextRenderer.StripTexParamCalls|StripTexParamCalls|(ILorg/objectweb/asm/MethodVisitor;)V
+         @|bqfontfix/BQPatchTextRenderer.java|5045|5058|MethodVisitor|class|org.objectweb.asm.MethodVisitor|false
+         @|bqfontfix/BQPatchTextRenderer.java|5384|5387|api|param|bqfontfix.BQPatchTextRenderer.StripTexParamCalls|StripTexParamCalls|(ILorg/objectweb/asm/MethodVisitor;)V|api|0
+         @|bqfontfix/BQPatchTextRenderer.java|5389|5391|mv|param|bqfontfix.BQPatchTextRenderer.StripTexParamCalls|StripTexParamCalls|(ILorg/objectweb/asm/MethodVisitor;)V|mv|1
+      Method End: StripTexParamCalls(ILorg/objectweb/asm/MethodVisitor;)V
+      Method Start: visitMethodInsn(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V
+         @|bqfontfix/BQPatchTextRenderer.java|6426|6432|opcode|param|bqfontfix.BQPatchTextRenderer.StripTexParamCalls|visitMethodInsn|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V|opcode|0
+         @|bqfontfix/BQPatchTextRenderer.java|6441|6446|owner|param|bqfontfix.BQPatchTextRenderer.StripTexParamCalls|visitMethodInsn|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V|owner|1
+         @|bqfontfix/BQPatchTextRenderer.java|6455|6459|name|param|bqfontfix.BQPatchTextRenderer.StripTexParamCalls|visitMethodInsn|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V|name|2
+         @|bqfontfix/BQPatchTextRenderer.java|6841|6845|desc|param|bqfontfix.BQPatchTextRenderer.StripTexParamCalls|visitMethodInsn|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V|desc|3
+         @|bqfontfix/BQPatchTextRenderer.java|6855|6858|itf|param|bqfontfix.BQPatchTextRenderer.StripTexParamCalls|visitMethodInsn|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V|itf|4
+         @|bqfontfix/BQPatchTextRenderer.java|6048|6056|Override|class|java.lang.Override|false
+         @|bqfontfix/BQPatchTextRenderer.java|6406|6421|visitMethodInsn|method|org.objectweb.asm.MethodVisitor|visitMethodInsn|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V
+         @|bqfontfix/BQPatchTextRenderer.java|6434|6440|String|class|java.lang.String|false
+         @|bqfontfix/BQPatchTextRenderer.java|6448|6454|String|class|java.lang.String|false
+         @|bqfontfix/BQPatchTextRenderer.java|6834|6840|String|class|java.lang.String|false
+         @|bqfontfix/BQPatchTextRenderer.java|7252|7258|opcode|param|bqfontfix.BQPatchTextRenderer.StripTexParamCalls|visitMethodInsn|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V|opcode|0
+         @|bqfontfix/BQPatchTextRenderer.java|7262|7269|Opcodes|class|org.objectweb.asm.Opcodes|false
+         @|bqfontfix/BQPatchTextRenderer.java|7270|7282|INVOKESTATIC|field|org.objectweb.asm.Opcodes|INVOKESTATIC
+         @|bqfontfix/BQPatchTextRenderer.java|7687|7692|owner|param|bqfontfix.BQPatchTextRenderer.StripTexParamCalls|visitMethodInsn|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V|owner|1
+         @|bqfontfix/BQPatchTextRenderer.java|7693|7699|equals|method|java.lang.String|equals|(Ljava/lang/Object;)Z
+         @|bqfontfix/BQPatchTextRenderer.java|8145|8149|name|param|bqfontfix.BQPatchTextRenderer.StripTexParamCalls|visitMethodInsn|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V|name|2
+         @|bqfontfix/BQPatchTextRenderer.java|8150|8156|equals|method|java.lang.String|equals|(Ljava/lang/Object;)Z
+         @|bqfontfix/BQPatchTextRenderer.java|8612|8616|desc|param|bqfontfix.BQPatchTextRenderer.StripTexParamCalls|visitMethodInsn|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V|desc|3
+         @|bqfontfix/BQPatchTextRenderer.java|8617|8623|equals|method|java.lang.String|equals|(Ljava/lang/Object;)Z
+         @|bqfontfix/BQPatchTextRenderer.java|10038|10053|visitMethodInsn|method|org.objectweb.asm.MethodVisitor|visitMethodInsn|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V
+         @|bqfontfix/BQPatchTextRenderer.java|10054|10060|opcode|param|bqfontfix.BQPatchTextRenderer.StripTexParamCalls|visitMethodInsn|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V|opcode|0
+         @|bqfontfix/BQPatchTextRenderer.java|10062|10067|owner|param|bqfontfix.BQPatchTextRenderer.StripTexParamCalls|visitMethodInsn|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V|owner|1
+         @|bqfontfix/BQPatchTextRenderer.java|10069|10073|name|param|bqfontfix.BQPatchTextRenderer.StripTexParamCalls|visitMethodInsn|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V|name|2
+         @|bqfontfix/BQPatchTextRenderer.java|10075|10079|desc|param|bqfontfix.BQPatchTextRenderer.StripTexParamCalls|visitMethodInsn|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V|desc|3
+         @|bqfontfix/BQPatchTextRenderer.java|10081|10084|itf|param|bqfontfix.BQPatchTextRenderer.StripTexParamCalls|visitMethodInsn|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V|itf|4
+      Method End: visitMethodInsn(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V
+   Class End  : bqfontfix.BQPatchTextRenderer.StripTexParamCalls
+Class End  : bqfontfix.BQPatchTextRenderer
+endProcessing "bqfontfix/BQPatchTextRenderer.java"
 
