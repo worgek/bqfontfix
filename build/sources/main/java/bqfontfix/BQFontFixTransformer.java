@@ -17,7 +17,7 @@ public class BQFontFixTransformer implements IClassTransformer {
                                     if (name == null || basicClass == null) return basicClass;
 
                                             // match either name or transformedName
-                                                    if (!name.equals(TARGET_CLASS) && !transformedName.equals(TARGET_CLASS)) {
+                                                    if (!name.equals(TARGET_CLASS)) {
                                                                 return basicClass;
                                                                         }
 
