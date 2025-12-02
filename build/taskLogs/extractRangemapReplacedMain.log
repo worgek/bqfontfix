@@ -6,6 +6,6 @@ Processing 2 files
 startProcessing "bqfontfix/BQFontFixCoremod.java" md5: e5290e609d4a2552aea733f39080e18e
 endProcessing "bqfontfix/BQFontFixCoremod.java"
 
-startProcessing "bqfontfix/BQFontFixTransformer.java" md5: f1ae1028f4eb4adcca94e22d360ae833
+startProcessing "bqfontfix/BQFontFixTransformer.java" md5: 1710d1b73cc7a7d8724897372bd63406
 endProcessing "bqfontfix/BQFontFixTransformer.java"
 

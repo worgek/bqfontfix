@@ -6,7 +6,7 @@ import org.objectweb.asm.*;
 
 public class BQFontFixTransformer implements IClassTransformer {
 
-    private static final String TARGET_CLASS = "betterquesting.api2.utils.BqFontRenderer";
+    private static final String TARGET_CLASS = "betterquesting.api2.utils.BQFontRenderer";
 
         @Override
             public byte[] transform(String name, String transformedName, byte[] basicClass) {
@@ -17,7 +17,7 @@ public class BQFontFixTransformer implements IClassTransformer {
                                     if (name == null || basicClass == null) return basicClass;
 
                                             // match either name or transformedName
-                                                    if (!name.equals(TARGET_CLASS) && !transformedName.equals(TARGET_CLASS)) {
+                                                    if (!name.equals(TARGET_CLASS) {
                                                                 return basicClass;
                                                                         }
 

@@ -1,5 +1,6 @@
 package bqfontfix;
 
+import net.minecraftforge.fml.common.FMLLog;
 import net.minecraft.launchwrapper.IClassTransformer;
 import org.objectweb.asm.*;
 
@@ -11,7 +12,7 @@ public class BQFontFixTransformer implements IClassTransformer {
             public byte[] transform(String name, String transformedName, byte[] basicClass) {
 
                     // TEMPORARY DEBUG LOGGING – REQUIRED TO FIND REAL CLASS NAME
-                            System.out.println("[BQFontFix] Saw class: " + name + " / " + transformedName);
+                            FMLLog.log.info("[BQFontFix] Saw class: " + name + " / " + transformedName);
 
                                     if (name == null || basicClass == null) return basicClass;
 

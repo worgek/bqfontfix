@@ -9,6 +9,7 @@ End  Processing: bqfontfix/BQFontFixCoremod.java
 
 Start Processing: bqfontfix/BQFontFixTransformer.java
 FOUND CONSTR method bqfontfix/BQFontFixTransformer/RemoveGLTexParamCalls/RemoveGLTexParamCalls (ILorg/objectweb/asm/MethodVisitor;)V bqfontfix/BQFontFixTransformer/RemoveGLTexParamCalls
+Import: net.minecraftforge.fml.common.FMLLog
 Import: net.minecraft.launchwrapper.IClassTransformer
 Import: org.objectweb.asm.*
 End  Processing: bqfontfix/BQFontFixTransformer.java
