@@ -3,9 +3,9 @@ Unsupposrted library path: /workspaces/bqfontfix/build/classes/java/api
 Unsupposrted library path: /workspaces/bqfontfix/build/resources/api
 Symbol range map extraction starting
 Processing 2 files
-startProcessing "bqfontfix/BQFontFixCoremod.java" md5: 75daccef48d5a7b6fe40d75cadedfea3
+startProcessing "bqfontfix/BQFontFixCoremod.java" md5: 588801c94ad8e1db1c2c56fa3244d2c9
 endProcessing "bqfontfix/BQFontFixCoremod.java"
 
-startProcessing "bqfontfix/BQFontFixFontRendererTransformer.java" md5: 5e68717c87e5ce482a467e1e7b764961
-endProcessing "bqfontfix/BQFontFixFontRendererTransformer.java"
+startProcessing "bqfontfix/DiscoveryTransformer.java" md5: 4ec8e81a1c3c9b3a0ff0c2d51f1a614a
+endProcessing "bqfontfix/DiscoveryTransformer.java"
 
