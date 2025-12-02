@@ -6,7 +6,7 @@ import java.util.Map;
 @IFMLLoadingPlugin.MCVersion("1.12.2")
 public class BQFontFixCoremod implements IFMLLoadingPlugin {
     @Override public String[] getASMTransformerClass() {
-            return new String[]{ "bqfontfix.BQPatchTextRenderer" };
+            return new String[]{ "bqfontfix.BQDiscovery" };
                 }
                     @Override public String getModContainerClass() { return null; }
                         @Override public String getSetupClass() { return null; }
