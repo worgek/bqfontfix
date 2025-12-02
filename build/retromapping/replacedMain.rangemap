@@ -43,127 +43,96 @@ Class Start: bqfontfix.BQFontFixCoremod
 Class End  : bqfontfix.BQFontFixCoremod
 endProcessing "bqfontfix/BQFontFixCoremod.java"
 
-startProcessing "bqfontfix/BQFontFixTransformer.java" md5: 80f9ecc7b49e534e78aaca99f94a132e
-@|bqfontfix/BQFontFixTransformer.java|8|17|bqfontfix|package|bqfontfix|(file)
-Class Start: bqfontfix.BQFontFixTransformer
-   @|bqfontfix/BQFontFixTransformer.java|161|181|BQFontFixTransformer|class|bqfontfix.BQFontFixTransformer|false
-   @|bqfontfix/BQFontFixTransformer.java|193|210|IClassTransformer|class|net.minecraft.launchwrapper.IClassTransformer|false
-   @|bqfontfix/BQFontFixTransformer.java|239|245|String|class|java.lang.String|false
-   @|bqfontfix/BQFontFixTransformer.java|239|245|String|class|java.lang.String|false
-   @|bqfontfix/BQFontFixTransformer.java|246|258|TARGET_CLASS|field|bqfontfix.BQFontFixTransformer|TARGET_CLASS|
+startProcessing "bqfontfix/BQFontFixDiscoveryTransformer.java" md5: 591582e01edf757d845263982aea34ea
+@|bqfontfix/BQFontFixDiscoveryTransformer.java|8|17|bqfontfix|package|bqfontfix|(file)
+Class Start: bqfontfix.BQFontFixDiscoveryTransformer
+   @|bqfontfix/BQFontFixDiscoveryTransformer.java|161|190|BQFontFixDiscoveryTransformer|class|bqfontfix.BQFontFixDiscoveryTransformer|false
+   @|bqfontfix/BQFontFixDiscoveryTransformer.java|202|219|IClassTransformer|class|net.minecraft.launchwrapper.IClassTransformer|false
    Method Start: transform(Ljava/lang/String;Ljava/lang/String;[B)[B
-      @|bqfontfix/BQFontFixTransformer.java|367|371|name|param|bqfontfix.BQFontFixTransformer|transform|(Ljava/lang/String;Ljava/lang/String;[B)[B|name|0
-      @|bqfontfix/BQFontFixTransformer.java|380|395|transformedName|param|bqfontfix.BQFontFixTransformer|transform|(Ljava/lang/String;Ljava/lang/String;[B)[B|transformedName|1
-      @|bqfontfix/BQFontFixTransformer.java|404|414|basicClass|param|bqfontfix.BQFontFixTransformer|transform|(Ljava/lang/String;Ljava/lang/String;[B)[B|basicClass|2
-      @|bqfontfix/BQFontFixTransformer.java|315|323|Override|class|java.lang.Override|false
-      @|bqfontfix/BQFontFixTransformer.java|350|359|transform|method|net.minecraft.launchwrapper.IClassTransformer|transform|(Ljava/lang/String;Ljava/lang/String;[B)[B
-      @|bqfontfix/BQFontFixTransformer.java|360|366|String|class|java.lang.String|false
-      @|bqfontfix/BQFontFixTransformer.java|373|379|String|class|java.lang.String|false
-      @|bqfontfix/BQFontFixTransformer.java|476|482|FMLLog|class|net.minecraftforge.fml.common.FMLLog|false
-      @|bqfontfix/BQFontFixTransformer.java|483|486|log|field|net.minecraftforge.fml.common.FMLLog|log
-      @|bqfontfix/BQFontFixTransformer.java|487|491|info|method|org.apache.logging.log4j.Logger|info|(Ljava/lang/String;)V
-      @|bqfontfix/BQFontFixTransformer.java|520|524|name|param|bqfontfix.BQFontFixTransformer|transform|(Ljava/lang/String;Ljava/lang/String;[B)[B|name|0
-      @|bqfontfix/BQFontFixTransformer.java|535|550|transformedName|param|bqfontfix.BQFontFixTransformer|transform|(Ljava/lang/String;Ljava/lang/String;[B)[B|transformedName|1
-      @|bqfontfix/BQFontFixTransformer.java|594|598|name|param|bqfontfix.BQFontFixTransformer|transform|(Ljava/lang/String;Ljava/lang/String;[B)[B|name|0
-      @|bqfontfix/BQFontFixTransformer.java|610|620|basicClass|param|bqfontfix.BQFontFixTransformer|transform|(Ljava/lang/String;Ljava/lang/String;[B)[B|basicClass|2
-      @|bqfontfix/BQFontFixTransformer.java|637|647|basicClass|param|bqfontfix.BQFontFixTransformer|transform|(Ljava/lang/String;Ljava/lang/String;[B)[B|basicClass|2
-      @|bqfontfix/BQFontFixTransformer.java|699|703|name|param|bqfontfix.BQFontFixTransformer|transform|(Ljava/lang/String;Ljava/lang/String;[B)[B|name|0
-      @|bqfontfix/BQFontFixTransformer.java|704|710|equals|method|java.lang.String|equals|(Ljava/lang/Object;)Z
-      @|bqfontfix/BQFontFixTransformer.java|711|723|TARGET_CLASS|field|bqfontfix.BQFontFixTransformer|TARGET_CLASS
-      @|bqfontfix/BQFontFixTransformer.java|791|801|basicClass|param|bqfontfix.BQFontFixTransformer|transform|(Ljava/lang/String;Ljava/lang/String;[B)[B|basicClass|2
-      @|bqfontfix/BQFontFixTransformer.java|942|948|System|class|java.lang.System|false
-      @|bqfontfix/BQFontFixTransformer.java|949|952|out|field|java.lang.System|out
-      @|bqfontfix/BQFontFixTransformer.java|953|960|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
-      @|bqfontfix/BQFontFixTransformer.java|994|998|name|param|bqfontfix.BQFontFixTransformer|transform|(Ljava/lang/String;Ljava/lang/String;[B)[B|name|0
-      @|bqfontfix/BQFontFixTransformer.java|1180|1191|ClassReader|class|org.objectweb.asm.ClassReader|false
-      @|bqfontfix/BQFontFixTransformer.java|1201|1212|ClassReader|class|org.objectweb.asm.ClassReader|false
-      @|bqfontfix/BQFontFixTransformer.java|1213|1223|basicClass|param|bqfontfix.BQFontFixTransformer|transform|(Ljava/lang/String;Ljava/lang/String;[B)[B|basicClass|2
-      @|bqfontfix/BQFontFixTransformer.java|1330|1341|ClassWriter|class|org.objectweb.asm.ClassWriter|false
-      @|bqfontfix/BQFontFixTransformer.java|1351|1362|ClassWriter|class|org.objectweb.asm.ClassWriter|false
-      @|bqfontfix/BQFontFixTransformer.java|1363|1374|ClassWriter|class|org.objectweb.asm.ClassWriter|false
-      @|bqfontfix/BQFontFixTransformer.java|1375|1389|COMPUTE_FRAMES|field|org.objectweb.asm.ClassWriter|COMPUTE_FRAMES
-      @|bqfontfix/BQFontFixTransformer.java|1509|1521|ClassVisitor|class|org.objectweb.asm.ClassVisitor|false
-      @|bqfontfix/BQFontFixTransformer.java|1531|1543|ClassVisitor|class|org.objectweb.asm.ClassVisitor|false
-      @|bqfontfix/BQFontFixTransformer.java|1544|1551|Opcodes|class|org.objectweb.asm.Opcodes|false
-      @|bqfontfix/BQFontFixTransformer.java|1552|1556|ASM5|field|org.objectweb.asm.Opcodes|ASM5
-      Anon Class Start: bqfontfix.BQFontFixTransformer$1
+      @|bqfontfix/BQFontFixDiscoveryTransformer.java|276|280|name|param|bqfontfix.BQFontFixDiscoveryTransformer|transform|(Ljava/lang/String;Ljava/lang/String;[B)[B|name|0
+      @|bqfontfix/BQFontFixDiscoveryTransformer.java|289|304|transformedName|param|bqfontfix.BQFontFixDiscoveryTransformer|transform|(Ljava/lang/String;Ljava/lang/String;[B)[B|transformedName|1
+      @|bqfontfix/BQFontFixDiscoveryTransformer.java|313|323|basicClass|param|bqfontfix.BQFontFixDiscoveryTransformer|transform|(Ljava/lang/String;Ljava/lang/String;[B)[B|basicClass|2
+      @|bqfontfix/BQFontFixDiscoveryTransformer.java|228|236|Override|class|java.lang.Override|false
+      @|bqfontfix/BQFontFixDiscoveryTransformer.java|259|268|transform|method|net.minecraft.launchwrapper.IClassTransformer|transform|(Ljava/lang/String;Ljava/lang/String;[B)[B
+      @|bqfontfix/BQFontFixDiscoveryTransformer.java|269|275|String|class|java.lang.String|false
+      @|bqfontfix/BQFontFixDiscoveryTransformer.java|282|288|String|class|java.lang.String|false
+      @|bqfontfix/BQFontFixDiscoveryTransformer.java|348|358|basicClass|param|bqfontfix.BQFontFixDiscoveryTransformer|transform|(Ljava/lang/String;Ljava/lang/String;[B)[B|basicClass|2
+      @|bqfontfix/BQFontFixDiscoveryTransformer.java|370|374|name|param|bqfontfix.BQFontFixDiscoveryTransformer|transform|(Ljava/lang/String;Ljava/lang/String;[B)[B|name|0
+      @|bqfontfix/BQFontFixDiscoveryTransformer.java|391|401|basicClass|param|bqfontfix.BQFontFixDiscoveryTransformer|transform|(Ljava/lang/String;Ljava/lang/String;[B)[B|basicClass|2
+      @|bqfontfix/BQFontFixDiscoveryTransformer.java|470|481|ClassReader|class|org.objectweb.asm.ClassReader|false
+      @|bqfontfix/BQFontFixDiscoveryTransformer.java|491|502|ClassReader|class|org.objectweb.asm.ClassReader|false
+      @|bqfontfix/BQFontFixDiscoveryTransformer.java|503|513|basicClass|param|bqfontfix.BQFontFixDiscoveryTransformer|transform|(Ljava/lang/String;Ljava/lang/String;[B)[B|basicClass|2
+      @|bqfontfix/BQFontFixDiscoveryTransformer.java|564|575|ClassWriter|class|org.objectweb.asm.ClassWriter|false
+      @|bqfontfix/BQFontFixDiscoveryTransformer.java|585|596|ClassWriter|class|org.objectweb.asm.ClassWriter|false
+      @|bqfontfix/BQFontFixDiscoveryTransformer.java|662|674|ClassVisitor|class|org.objectweb.asm.ClassVisitor|false
+      @|bqfontfix/BQFontFixDiscoveryTransformer.java|684|696|ClassVisitor|class|org.objectweb.asm.ClassVisitor|false
+      @|bqfontfix/BQFontFixDiscoveryTransformer.java|697|704|Opcodes|class|org.objectweb.asm.Opcodes|false
+      @|bqfontfix/BQFontFixDiscoveryTransformer.java|705|709|ASM5|field|org.objectweb.asm.Opcodes|ASM5
+      Anon Class Start: bqfontfix.BQFontFixDiscoveryTransformer$1
          Method Start: visitMethod(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)Lorg/objectweb/asm/MethodVisitor;
-            @|bqfontfix/BQFontFixTransformer.java|1891|1897|access|param|bqfontfix.BQFontFixTransformer$1|visitMethod|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)Lorg/objectweb/asm/MethodVisitor;|access|0
-            @|bqfontfix/BQFontFixTransformer.java|1906|1916|methodName|param|bqfontfix.BQFontFixTransformer$1|visitMethod|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)Lorg/objectweb/asm/MethodVisitor;|methodName|1
-            @|bqfontfix/BQFontFixTransformer.java|1925|1929|desc|param|bqfontfix.BQFontFixTransformer$1|visitMethod|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)Lorg/objectweb/asm/MethodVisitor;|desc|2
-            @|bqfontfix/BQFontFixTransformer.java|1938|1947|signature|param|bqfontfix.BQFontFixTransformer$1|visitMethod|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)Lorg/objectweb/asm/MethodVisitor;|signature|3
-            @|bqfontfix/BQFontFixTransformer.java|1958|1968|exceptions|param|bqfontfix.BQFontFixTransformer$1|visitMethod|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)Lorg/objectweb/asm/MethodVisitor;|exceptions|4
-            @|bqfontfix/BQFontFixTransformer.java|1697|1705|Override|class|java.lang.Override|false
-            @|bqfontfix/BQFontFixTransformer.java|1861|1874|MethodVisitor|class|org.objectweb.asm.MethodVisitor|false
-            @|bqfontfix/BQFontFixTransformer.java|1875|1886|visitMethod|method|org.objectweb.asm.ClassVisitor|visitMethod|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)Lorg/objectweb/asm/MethodVisitor;
-            @|bqfontfix/BQFontFixTransformer.java|1899|1905|String|class|java.lang.String|false
-            @|bqfontfix/BQFontFixTransformer.java|1918|1924|String|class|java.lang.String|false
-            @|bqfontfix/BQFontFixTransformer.java|1931|1937|String|class|java.lang.String|false
-            @|bqfontfix/BQFontFixTransformer.java|1949|1955|String|class|java.lang.String|false
-            @|bqfontfix/BQFontFixTransformer.java|2140|2153|MethodVisitor|class|org.objectweb.asm.MethodVisitor|false
-            @|bqfontfix/BQFontFixTransformer.java|2165|2176|visitMethod|method|org.objectweb.asm.ClassVisitor|visitMethod|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)Lorg/objectweb/asm/MethodVisitor;
-            @|bqfontfix/BQFontFixTransformer.java|2177|2183|access|param|bqfontfix.BQFontFixTransformer$1|visitMethod|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)Lorg/objectweb/asm/MethodVisitor;|access|0
-            @|bqfontfix/BQFontFixTransformer.java|2185|2195|methodName|param|bqfontfix.BQFontFixTransformer$1|visitMethod|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)Lorg/objectweb/asm/MethodVisitor;|methodName|1
-            @|bqfontfix/BQFontFixTransformer.java|2197|2201|desc|param|bqfontfix.BQFontFixTransformer$1|visitMethod|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)Lorg/objectweb/asm/MethodVisitor;|desc|2
-            @|bqfontfix/BQFontFixTransformer.java|2203|2212|signature|param|bqfontfix.BQFontFixTransformer$1|visitMethod|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)Lorg/objectweb/asm/MethodVisitor;|signature|3
-            @|bqfontfix/BQFontFixTransformer.java|2214|2224|exceptions|param|bqfontfix.BQFontFixTransformer$1|visitMethod|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)Lorg/objectweb/asm/MethodVisitor;|exceptions|4
-            @|bqfontfix/BQFontFixTransformer.java|2426|2447|RemoveGLTexParamCalls|class|bqfontfix.BQFontFixTransformer.RemoveGLTexParamCalls|false
-            @|bqfontfix/BQFontFixTransformer.java|2448|2455|Opcodes|class|org.objectweb.asm.Opcodes|false
-            @|bqfontfix/BQFontFixTransformer.java|2456|2460|ASM5|field|org.objectweb.asm.Opcodes|ASM5
+            @|bqfontfix/BQFontFixDiscoveryTransformer.java|932|938|access|param|bqfontfix.BQFontFixDiscoveryTransformer$1|visitMethod|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)Lorg/objectweb/asm/MethodVisitor;|access|0
+            @|bqfontfix/BQFontFixDiscoveryTransformer.java|947|957|methodName|param|bqfontfix.BQFontFixDiscoveryTransformer$1|visitMethod|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)Lorg/objectweb/asm/MethodVisitor;|methodName|1
+            @|bqfontfix/BQFontFixDiscoveryTransformer.java|966|970|desc|param|bqfontfix.BQFontFixDiscoveryTransformer$1|visitMethod|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)Lorg/objectweb/asm/MethodVisitor;|desc|2
+            @|bqfontfix/BQFontFixDiscoveryTransformer.java|1120|1129|signature|param|bqfontfix.BQFontFixDiscoveryTransformer$1|visitMethod|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)Lorg/objectweb/asm/MethodVisitor;|signature|3
+            @|bqfontfix/BQFontFixDiscoveryTransformer.java|1140|1150|exceptions|param|bqfontfix.BQFontFixDiscoveryTransformer$1|visitMethod|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)Lorg/objectweb/asm/MethodVisitor;|exceptions|4
+            @|bqfontfix/BQFontFixDiscoveryTransformer.java|794|802|Override|class|java.lang.Override|false
+            @|bqfontfix/BQFontFixDiscoveryTransformer.java|902|915|MethodVisitor|class|org.objectweb.asm.MethodVisitor|false
+            @|bqfontfix/BQFontFixDiscoveryTransformer.java|916|927|visitMethod|method|org.objectweb.asm.ClassVisitor|visitMethod|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)Lorg/objectweb/asm/MethodVisitor;
+            @|bqfontfix/BQFontFixDiscoveryTransformer.java|940|946|String|class|java.lang.String|false
+            @|bqfontfix/BQFontFixDiscoveryTransformer.java|959|965|String|class|java.lang.String|false
+            @|bqfontfix/BQFontFixDiscoveryTransformer.java|1113|1119|String|class|java.lang.String|false
+            @|bqfontfix/BQFontFixDiscoveryTransformer.java|1131|1137|String|class|java.lang.String|false
+            @|bqfontfix/BQFontFixDiscoveryTransformer.java|1316|1329|MethodVisitor|class|org.objectweb.asm.MethodVisitor|false
+            @|bqfontfix/BQFontFixDiscoveryTransformer.java|1341|1352|visitMethod|method|org.objectweb.asm.ClassVisitor|visitMethod|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)Lorg/objectweb/asm/MethodVisitor;
+            @|bqfontfix/BQFontFixDiscoveryTransformer.java|1353|1359|access|param|bqfontfix.BQFontFixDiscoveryTransformer$1|visitMethod|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)Lorg/objectweb/asm/MethodVisitor;|access|0
+            @|bqfontfix/BQFontFixDiscoveryTransformer.java|1361|1371|methodName|param|bqfontfix.BQFontFixDiscoveryTransformer$1|visitMethod|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)Lorg/objectweb/asm/MethodVisitor;|methodName|1
+            @|bqfontfix/BQFontFixDiscoveryTransformer.java|1373|1377|desc|param|bqfontfix.BQFontFixDiscoveryTransformer$1|visitMethod|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)Lorg/objectweb/asm/MethodVisitor;|desc|2
+            @|bqfontfix/BQFontFixDiscoveryTransformer.java|1379|1388|signature|param|bqfontfix.BQFontFixDiscoveryTransformer$1|visitMethod|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)Lorg/objectweb/asm/MethodVisitor;|signature|3
+            @|bqfontfix/BQFontFixDiscoveryTransformer.java|1390|1400|exceptions|param|bqfontfix.BQFontFixDiscoveryTransformer$1|visitMethod|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)Lorg/objectweb/asm/MethodVisitor;|exceptions|4
+            @|bqfontfix/BQFontFixDiscoveryTransformer.java|1596|1609|MethodVisitor|class|org.objectweb.asm.MethodVisitor|false
+            @|bqfontfix/BQFontFixDiscoveryTransformer.java|1610|1617|Opcodes|class|org.objectweb.asm.Opcodes|false
+            @|bqfontfix/BQFontFixDiscoveryTransformer.java|1618|1622|ASM5|field|org.objectweb.asm.Opcodes|ASM5
+            Anon Class Start: bqfontfix.BQFontFixDiscoveryTransformer$1$1
+               Method Start: visitMethodInsn(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V
+                  @|bqfontfix/BQFontFixDiscoveryTransformer.java|2106|2112|opcode|param|bqfontfix.BQFontFixDiscoveryTransformer$1$1|visitMethodInsn|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V|opcode|0
+                  @|bqfontfix/BQFontFixDiscoveryTransformer.java|2121|2126|owner|param|bqfontfix.BQFontFixDiscoveryTransformer$1$1|visitMethodInsn|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V|owner|1
+                  @|bqfontfix/BQFontFixDiscoveryTransformer.java|2135|2140|name2|param|bqfontfix.BQFontFixDiscoveryTransformer$1$1|visitMethodInsn|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V|name2|2
+                  @|bqfontfix/BQFontFixDiscoveryTransformer.java|2149|2154|desc2|param|bqfontfix.BQFontFixDiscoveryTransformer$1$1|visitMethodInsn|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V|desc2|3
+                  @|bqfontfix/BQFontFixDiscoveryTransformer.java|2164|2167|itf|param|bqfontfix.BQFontFixDiscoveryTransformer$1$1|visitMethodInsn|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V|itf|4
+                  @|bqfontfix/BQFontFixDiscoveryTransformer.java|1836|1844|Override|class|java.lang.Override|false
+                  @|bqfontfix/BQFontFixDiscoveryTransformer.java|2086|2101|visitMethodInsn|method|org.objectweb.asm.MethodVisitor|visitMethodInsn|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V
+                  @|bqfontfix/BQFontFixDiscoveryTransformer.java|2114|2120|String|class|java.lang.String|false
+                  @|bqfontfix/BQFontFixDiscoveryTransformer.java|2128|2134|String|class|java.lang.String|false
+                  @|bqfontfix/BQFontFixDiscoveryTransformer.java|2142|2148|String|class|java.lang.String|false
+                  @|bqfontfix/BQFontFixDiscoveryTransformer.java|2753|2759|opcode|param|bqfontfix.BQFontFixDiscoveryTransformer$1$1|visitMethodInsn|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V|opcode|0
+                  @|bqfontfix/BQFontFixDiscoveryTransformer.java|2763|2770|Opcodes|class|org.objectweb.asm.Opcodes|false
+                  @|bqfontfix/BQFontFixDiscoveryTransformer.java|2771|2783|INVOKESTATIC|field|org.objectweb.asm.Opcodes|INVOKESTATIC
+                  @|bqfontfix/BQFontFixDiscoveryTransformer.java|3104|3109|owner|param|bqfontfix.BQFontFixDiscoveryTransformer$1$1|visitMethodInsn|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V|owner|1
+                  @|bqfontfix/BQFontFixDiscoveryTransformer.java|3110|3116|equals|method|java.lang.String|equals|(Ljava/lang/Object;)Z
+                  @|bqfontfix/BQFontFixDiscoveryTransformer.java|3494|3499|name2|param|bqfontfix.BQFontFixDiscoveryTransformer$1$1|visitMethodInsn|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V|name2|2
+                  @|bqfontfix/BQFontFixDiscoveryTransformer.java|3500|3506|equals|method|java.lang.String|equals|(Ljava/lang/Object;)Z
+                  @|bqfontfix/BQFontFixDiscoveryTransformer.java|3910|3915|desc2|param|bqfontfix.BQFontFixDiscoveryTransformer$1$1|visitMethodInsn|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V|desc2|3
+                  @|bqfontfix/BQFontFixDiscoveryTransformer.java|3916|3922|equals|method|java.lang.String|equals|(Ljava/lang/Object;)Z
+                  @|bqfontfix/BQFontFixDiscoveryTransformer.java|4350|4356|FMLLog|class|net.minecraftforge.fml.common.FMLLog|false
+                  @|bqfontfix/BQFontFixDiscoveryTransformer.java|4357|4360|log|field|net.minecraftforge.fml.common.FMLLog|log
+                  @|bqfontfix/BQFontFixDiscoveryTransformer.java|4361|4365|info|method|org.apache.logging.log4j.Logger|info|(Ljava/lang/String;)V
+                  @|bqfontfix/BQFontFixDiscoveryTransformer.java|4862|4877|transformedName|param|bqfontfix.BQFontFixDiscoveryTransformer|transform|(Ljava/lang/String;Ljava/lang/String;[B)[B|transformedName|1
+                  @|bqfontfix/BQFontFixDiscoveryTransformer.java|5387|5397|methodName|param|bqfontfix.BQFontFixDiscoveryTransformer$1|visitMethod|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)Lorg/objectweb/asm/MethodVisitor;|methodName|1
+                  @|bqfontfix/BQFontFixDiscoveryTransformer.java|7069|7084|visitMethodInsn|method|org.objectweb.asm.MethodVisitor|visitMethodInsn|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V
+                  @|bqfontfix/BQFontFixDiscoveryTransformer.java|7085|7091|opcode|param|bqfontfix.BQFontFixDiscoveryTransformer$1$1|visitMethodInsn|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V|opcode|0
+                  @|bqfontfix/BQFontFixDiscoveryTransformer.java|7093|7098|owner|param|bqfontfix.BQFontFixDiscoveryTransformer$1$1|visitMethodInsn|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V|owner|1
+                  @|bqfontfix/BQFontFixDiscoveryTransformer.java|7100|7105|name2|param|bqfontfix.BQFontFixDiscoveryTransformer$1$1|visitMethodInsn|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V|name2|2
+                  @|bqfontfix/BQFontFixDiscoveryTransformer.java|7107|7112|desc2|param|bqfontfix.BQFontFixDiscoveryTransformer$1$1|visitMethodInsn|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V|desc2|3
+                  @|bqfontfix/BQFontFixDiscoveryTransformer.java|7114|7117|itf|param|bqfontfix.BQFontFixDiscoveryTransformer$1$1|visitMethodInsn|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V|itf|4
+               Method End: visitMethodInsn(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V
+            Anon Class End: bqfontfix.BQFontFixDiscoveryTransformer$1$1
          Method End: visitMethod(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)Lorg/objectweb/asm/MethodVisitor;
-      Anon Class End: bqfontfix.BQFontFixTransformer$1
-      @|bqfontfix/BQFontFixTransformer.java|3124|3130|accept|method|org.objectweb.asm.ClassReader|accept|(Lorg/objectweb/asm/ClassVisitor;I)V
-      @|bqfontfix/BQFontFixTransformer.java|3135|3146|ClassReader|class|org.objectweb.asm.ClassReader|false
-      @|bqfontfix/BQFontFixTransformer.java|3147|3158|SKIP_FRAMES|field|org.objectweb.asm.ClassReader|SKIP_FRAMES
-      @|bqfontfix/BQFontFixTransformer.java|3411|3422|toByteArray|method|org.objectweb.asm.ClassWriter|toByteArray|()[B
-      @|bqfontfix/BQFontFixTransformer.java|3684|3693|Exception|class|java.lang.Exception|false
-      @|bqfontfix/BQFontFixTransformer.java|3959|3965|System|class|java.lang.System|false
-      @|bqfontfix/BQFontFixTransformer.java|3966|3969|out|field|java.lang.System|out
-      @|bqfontfix/BQFontFixTransformer.java|3970|3977|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
-      @|bqfontfix/BQFontFixTransformer.java|4300|4310|basicClass|param|bqfontfix.BQFontFixTransformer|transform|(Ljava/lang/String;Ljava/lang/String;[B)[B|basicClass|2
+      Anon Class End: bqfontfix.BQFontFixDiscoveryTransformer$1
+      @|bqfontfix/BQFontFixDiscoveryTransformer.java|10323|10329|accept|method|org.objectweb.asm.ClassReader|accept|(Lorg/objectweb/asm/ClassVisitor;I)V
+      @|bqfontfix/BQFontFixDiscoveryTransformer.java|11025|11036|toByteArray|method|org.objectweb.asm.ClassWriter|toByteArray|()[B
+      @|bqfontfix/BQFontFixDiscoveryTransformer.java|11735|11744|Throwable|class|java.lang.Throwable|false
+      @|bqfontfix/BQFontFixDiscoveryTransformer.java|12454|12464|basicClass|param|bqfontfix.BQFontFixDiscoveryTransformer|transform|(Ljava/lang/String;Ljava/lang/String;[B)[B|basicClass|2
    Method End: transform(Ljava/lang/String;Ljava/lang/String;[B)[B
-   Class Start: bqfontfix.BQFontFixTransformer.RemoveGLTexParamCalls
-      @|bqfontfix/BQFontFixTransformer.java|5190|5211|RemoveGLTexParamCalls|class|bqfontfix.BQFontFixTransformer.RemoveGLTexParamCalls|false
-      @|bqfontfix/BQFontFixTransformer.java|5220|5233|MethodVisitor|class|org.objectweb.asm.MethodVisitor|false
-      Method Start: RemoveGLTexParamCalls(ILorg/objectweb/asm/MethodVisitor;)V
-         @|bqfontfix/BQFontFixTransformer.java|5566|5569|api|param|bqfontfix.BQFontFixTransformer.RemoveGLTexParamCalls|RemoveGLTexParamCalls|(ILorg/objectweb/asm/MethodVisitor;)V|api|0
-         @|bqfontfix/BQFontFixTransformer.java|5585|5587|mv|param|bqfontfix.BQFontFixTransformer.RemoveGLTexParamCalls|RemoveGLTexParamCalls|(ILorg/objectweb/asm/MethodVisitor;)V|mv|1
-         @|bqfontfix/BQFontFixTransformer.java|5540|5561|RemoveGLTexParamCalls|method|bqfontfix.BQFontFixTransformer.RemoveGLTexParamCalls|RemoveGLTexParamCalls|(ILorg/objectweb/asm/MethodVisitor;)V
-         @|bqfontfix/BQFontFixTransformer.java|5571|5584|MethodVisitor|class|org.objectweb.asm.MethodVisitor|false
-         @|bqfontfix/BQFontFixTransformer.java|5905|5908|api|param|bqfontfix.BQFontFixTransformer.RemoveGLTexParamCalls|RemoveGLTexParamCalls|(ILorg/objectweb/asm/MethodVisitor;)V|api|0
-         @|bqfontfix/BQFontFixTransformer.java|5910|5912|mv|param|bqfontfix.BQFontFixTransformer.RemoveGLTexParamCalls|RemoveGLTexParamCalls|(ILorg/objectweb/asm/MethodVisitor;)V|mv|1
-      Method End: RemoveGLTexParamCalls(ILorg/objectweb/asm/MethodVisitor;)V
-      Method Start: visitMethodInsn(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V
-         @|bqfontfix/BQFontFixTransformer.java|6932|6938|opcode|param|bqfontfix.BQFontFixTransformer.RemoveGLTexParamCalls|visitMethodInsn|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V|opcode|0
-         @|bqfontfix/BQFontFixTransformer.java|6947|6952|owner|param|bqfontfix.BQFontFixTransformer.RemoveGLTexParamCalls|visitMethodInsn|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V|owner|1
-         @|bqfontfix/BQFontFixTransformer.java|6961|6965|name|param|bqfontfix.BQFontFixTransformer.RemoveGLTexParamCalls|visitMethodInsn|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V|name|2
-         @|bqfontfix/BQFontFixTransformer.java|6974|6978|desc|param|bqfontfix.BQFontFixTransformer.RemoveGLTexParamCalls|visitMethodInsn|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V|desc|3
-         @|bqfontfix/BQFontFixTransformer.java|6988|6991|itf|param|bqfontfix.BQFontFixTransformer.RemoveGLTexParamCalls|visitMethodInsn|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V|itf|4
-         @|bqfontfix/BQFontFixTransformer.java|6559|6567|Override|class|java.lang.Override|false
-         @|bqfontfix/BQFontFixTransformer.java|6912|6927|visitMethodInsn|method|org.objectweb.asm.MethodVisitor|visitMethodInsn|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V
-         @|bqfontfix/BQFontFixTransformer.java|6940|6946|String|class|java.lang.String|false
-         @|bqfontfix/BQFontFixTransformer.java|6954|6960|String|class|java.lang.String|false
-         @|bqfontfix/BQFontFixTransformer.java|6967|6973|String|class|java.lang.String|false
-         @|bqfontfix/BQFontFixTransformer.java|7746|7752|opcode|param|bqfontfix.BQFontFixTransformer.RemoveGLTexParamCalls|visitMethodInsn|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V|opcode|0
-         @|bqfontfix/BQFontFixTransformer.java|7756|7763|Opcodes|class|org.objectweb.asm.Opcodes|false
-         @|bqfontfix/BQFontFixTransformer.java|7764|7776|INVOKESTATIC|field|org.objectweb.asm.Opcodes|INVOKESTATIC
-         @|bqfontfix/BQFontFixTransformer.java|8152|8157|owner|param|bqfontfix.BQFontFixTransformer.RemoveGLTexParamCalls|visitMethodInsn|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V|owner|1
-         @|bqfontfix/BQFontFixTransformer.java|8158|8164|equals|method|java.lang.String|equals|(Ljava/lang/Object;)Z
-         @|bqfontfix/BQFontFixTransformer.java|8581|8585|name|param|bqfontfix.BQFontFixTransformer.RemoveGLTexParamCalls|visitMethodInsn|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V|name|2
-         @|bqfontfix/BQFontFixTransformer.java|8586|8592|equals|method|java.lang.String|equals|(Ljava/lang/Object;)Z
-         @|bqfontfix/BQFontFixTransformer.java|9019|9023|desc|param|bqfontfix.BQFontFixTransformer.RemoveGLTexParamCalls|visitMethodInsn|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V|desc|3
-         @|bqfontfix/BQFontFixTransformer.java|9024|9030|equals|method|java.lang.String|equals|(Ljava/lang/Object;)Z
-         @|bqfontfix/BQFontFixTransformer.java|9465|9471|System|class|java.lang.System|false
-         @|bqfontfix/BQFontFixTransformer.java|9472|9475|out|field|java.lang.System|out
-         @|bqfontfix/BQFontFixTransformer.java|9476|9483|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
-         @|bqfontfix/BQFontFixTransformer.java|10910|10925|visitMethodInsn|method|org.objectweb.asm.MethodVisitor|visitMethodInsn|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V
-         @|bqfontfix/BQFontFixTransformer.java|10926|10932|opcode|param|bqfontfix.BQFontFixTransformer.RemoveGLTexParamCalls|visitMethodInsn|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V|opcode|0
-         @|bqfontfix/BQFontFixTransformer.java|10934|10939|owner|param|bqfontfix.BQFontFixTransformer.RemoveGLTexParamCalls|visitMethodInsn|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V|owner|1
-         @|bqfontfix/BQFontFixTransformer.java|10941|10945|name|param|bqfontfix.BQFontFixTransformer.RemoveGLTexParamCalls|visitMethodInsn|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V|name|2
-         @|bqfontfix/BQFontFixTransformer.java|10947|10951|desc|param|bqfontfix.BQFontFixTransformer.RemoveGLTexParamCalls|visitMethodInsn|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V|desc|3
-         @|bqfontfix/BQFontFixTransformer.java|10953|10956|itf|param|bqfontfix.BQFontFixTransformer.RemoveGLTexParamCalls|visitMethodInsn|(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V|itf|4
-      Method End: visitMethodInsn(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V
-   Class End  : bqfontfix.BQFontFixTransformer.RemoveGLTexParamCalls
-Class End  : bqfontfix.BQFontFixTransformer
-endProcessing "bqfontfix/BQFontFixTransformer.java"
+Class End  : bqfontfix.BQFontFixDiscoveryTransformer
+endProcessing "bqfontfix/BQFontFixDiscoveryTransformer.java"
 

@@ -7,10 +7,9 @@ Import: java.util.Map
 Import: net.minecraftforge.fml.relauncher.IFMLLoadingPlugin
 End  Processing: bqfontfix/BQFontFixCoremod.java
 
-Start Processing: bqfontfix/BQFontFixTransformer.java
-FOUND CONSTR method bqfontfix/BQFontFixTransformer/RemoveGLTexParamCalls/RemoveGLTexParamCalls (ILorg/objectweb/asm/MethodVisitor;)V bqfontfix/BQFontFixTransformer/RemoveGLTexParamCalls
+Start Processing: bqfontfix/BQFontFixDiscoveryTransformer.java
 Import: net.minecraftforge.fml.common.FMLLog
 Import: net.minecraft.launchwrapper.IClassTransformer
 Import: org.objectweb.asm.*
-End  Processing: bqfontfix/BQFontFixTransformer.java
+End  Processing: bqfontfix/BQFontFixDiscoveryTransformer.java
 
