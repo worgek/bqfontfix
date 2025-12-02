@@ -6,26 +6,27 @@ import net.minecraftforge.fml.common.FMLLog;
 public class DiscoveryTransformer implements IClassTransformer {
 
     @Override
-        public byte[] transform(String name, String transformedName, byte[] basicClass) {
+    public byte[] transform(String name, String transformedName, byte[] basicClass) {
 
-                if (name == null || basicClass == null) return basicClass;
+        if (name == null || basicClass == null) return basicClass;
 
-                        // Look for anything that could be FontRenderer
-                                if (name.contains("Font") || name.contains("font")) {
-                                            FMLLog.log.info("[BQFontFix] FONT-LIKE: " + name + "  ->  " + transformedName);
-                                                    }
+        String n = name.toLowerCase();
 
-                                                            // Also look for GUI classes (font is often inside gui package)
-                                                                    if (name.startsWith("net.minecraft.client.gui")) {
-                                                                                FMLLog.log.info("[BQFontFix] GUI: " + name + "  ->  " + transformedName);
-                                                                                        }
+        // Filter 1: BetterQuesting namespace
+        if (n.contains("betterquesting")) {
+            FMLLog.log.info("[BQFind] BQ: " + name + " -> " + transformedName);
+        }
 
-                                                                                                // Look for short obfuscated classes that might be vanilla
-                                                                                                        if (name.length() <= 4 && !name.contains("/")) {
-                                                                                                                    FMLLog.log.info("[BQFontFix] SMALL CLASS: " + name + "  ->  " + transformedName);
-                                                                                                                            }
+        // Filter 2: panel-related classes
+        if (n.contains("panel")) {
+            FMLLog.log.info("[BQFind] PANEL: " + name + " -> " + transformedName);
+        }
 
-                                                                                                                                    return basicClass;
-                                                                                                                                        }
-                                                                                                                                        }
-                                                                                                                                        
+        // Filter 3: text-related classes
+        if (n.contains("text")) {
+            FMLLog.log.info("[BQFind] TEXT: " + name + " -> " + transformedName);
+        }
+
+        return basicClass;
+    }
+}
