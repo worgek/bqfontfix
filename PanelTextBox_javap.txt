@@ -1,0 +1,461 @@
+Compiled from "PanelTextBox.java"
+public class betterquesting.api2.client.gui.panels.content.PanelTextBox implements betterquesting.api2.client.gui.panels.IGuiPanel {
+  private final betterquesting.api2.client.gui.panels.content.PanelTextBox$GuiRectText transform;
+
+  private final betterquesting.api2.client.gui.misc.GuiRectangle refRect;
+
+  private boolean enabled;
+
+  private java.lang.String text;
+
+  private boolean shadow;
+
+  private betterquesting.api2.client.gui.resources.colors.IGuiColor color;
+
+  private final boolean autoFit;
+
+  private int align;
+
+  private int fontScale;
+
+  private int lines;
+
+  private final float relScale;
+
+  public betterquesting.api2.client.gui.panels.content.PanelTextBox(betterquesting.api2.client.gui.misc.IGuiRect, java.lang.String);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: aload_2
+       3: iconst_0
+       4: invokespecial #34                 // Method "<init>":(Lbetterquesting/api2/client/gui/misc/IGuiRect;Ljava/lang/String;Z)V
+       7: return
+
+  public betterquesting.api2.client.gui.panels.content.PanelTextBox(betterquesting.api2.client.gui.misc.IGuiRect, java.lang.String, boolean);
+    Code:
+       0: aload_0
+       1: invokespecial #41                 // Method java/lang/Object."<init>":()V
+       4: aload_0
+       5: new           #43                 // class betterquesting/api2/client/gui/misc/GuiRectangle
+       8: dup
+       9: iconst_0
+      10: iconst_0
+      11: iconst_0
+      12: iconst_0
+      13: iconst_0
+      14: invokespecial #46                 // Method betterquesting/api2/client/gui/misc/GuiRectangle."<init>":(IIIII)V
+      17: putfield      #48                 // Field refRect:Lbetterquesting/api2/client/gui/misc/GuiRectangle;
+      20: aload_0
+      21: iconst_1
+      22: putfield      #50                 // Field enabled:Z
+      25: aload_0
+      26: ldc           #52                 // String
+      28: putfield      #54                 // Field text:Ljava/lang/String;
+      31: aload_0
+      32: iconst_0
+      33: putfield      #56                 // Field shadow:Z
+      36: aload_0
+      37: new           #58                 // class betterquesting/api2/client/gui/resources/colors/GuiColorStatic
+      40: dup
+      41: sipush        255
+      44: sipush        255
+      47: sipush        255
+      50: sipush        255
+      53: invokespecial #61                 // Method betterquesting/api2/client/gui/resources/colors/GuiColorStatic."<init>":(IIII)V
+      56: putfield      #63                 // Field color:Lbetterquesting/api2/client/gui/resources/colors/IGuiColor;
+      59: aload_0
+      60: iconst_0
+      61: putfield      #65                 // Field align:I
+      64: aload_0
+      65: bipush        12
+      67: putfield      #67                 // Field fontScale:I
+      70: aload_0
+      71: iconst_1
+      72: putfield      #69                 // Field lines:I
+      75: aload_0
+      76: ldc           #29                 // float 12.0f
+      78: putfield      #71                 // Field relScale:F
+      81: aload_0
+      82: new           #9                  // class betterquesting/api2/client/gui/panels/content/PanelTextBox$GuiRectText
+      85: dup
+      86: aload_1
+      87: iload_3
+      88: invokespecial #74                 // Method betterquesting/api2/client/gui/panels/content/PanelTextBox$GuiRectText."<init>":(Lbetterquesting/api2/client/gui/misc/IGuiRect;Z)V
+      91: putfield      #76                 // Field transform:Lbetterquesting/api2/client/gui/panels/content/PanelTextBox$GuiRectText;
+      94: aload_0
+      95: aload_2
+      96: invokevirtual #80                 // Method setText:(Ljava/lang/String;)Lbetterquesting/api2/client/gui/panels/content/PanelTextBox;
+      99: pop
+     100: aload_0
+     101: iload_3
+     102: putfield      #82                 // Field autoFit:Z
+     105: return
+
+  public betterquesting.api2.client.gui.panels.content.PanelTextBox setText(java.lang.String);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: putfield      #54                 // Field text:Ljava/lang/String;
+       5: aload_0
+       6: invokespecial #85                 // Method refreshText:()V
+       9: aload_0
+      10: areturn
+
+  public betterquesting.api2.client.gui.panels.content.PanelTextBox setColor(betterquesting.api2.client.gui.resources.colors.IGuiColor);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: putfield      #63                 // Field color:Lbetterquesting/api2/client/gui/resources/colors/IGuiColor;
+       5: aload_0
+       6: areturn
+
+  public betterquesting.api2.client.gui.panels.content.PanelTextBox setAlignment(int);
+    Code:
+       0: aload_0
+       1: iload_1
+       2: iconst_0
+       3: iconst_2
+       4: invokestatic  #95                 // Method net/minecraft/util/math/MathHelper.func_76125_a:(III)I
+       7: putfield      #65                 // Field align:I
+      10: aload_0
+      11: areturn
+
+  public betterquesting.api2.client.gui.panels.content.PanelTextBox setFontSize(int);
+    Code:
+       0: aload_0
+       1: iload_1
+       2: putfield      #67                 // Field fontScale:I
+       5: aload_0
+       6: areturn
+
+  public betterquesting.api2.client.gui.panels.content.PanelTextBox enableShadow(boolean);
+    Code:
+       0: aload_0
+       1: iload_1
+       2: putfield      #56                 // Field shadow:Z
+       5: aload_0
+       6: areturn
+
+  private void refreshText();
+    Code:
+       0: aload_0
+       1: invokevirtual #104                // Method getTransform:()Lbetterquesting/api2/client/gui/misc/IGuiRect;
+       4: astore_1
+       5: invokestatic  #110                // Method net/minecraft/client/Minecraft.func_71410_x:()Lnet/minecraft/client/Minecraft;
+       8: getfield      #114                // Field net/minecraft/client/Minecraft.field_71466_p:Lnet/minecraft/client/gui/FontRenderer;
+      11: astore_2
+      12: aload_0
+      13: getfield      #67                 // Field fontScale:I
+      16: i2f
+      17: ldc           #29                 // float 12.0f
+      19: fdiv
+      20: fstore_3
+      21: aload_0
+      22: getfield      #82                 // Field autoFit:Z
+      25: ifne          55
+      28: aload_0
+      29: aload_1
+      30: invokeinterface #120,  1          // InterfaceMethod betterquesting/api2/client/gui/misc/IGuiRect.getHeight:()I
+      35: i2f
+      36: aload_2
+      37: getfield      #125                // Field net/minecraft/client/gui/FontRenderer.field_78288_b:I
+      40: i2f
+      41: fload_3
+      42: fmul
+      43: fdiv
+      44: f2d
+      45: invokestatic  #131                // Method java/lang/Math.floor:(D)D
+      48: d2i
+      49: iconst_1
+      50: isub
+      51: putfield      #69                 // Field lines:I
+      54: return
+      55: aload_1
+      56: invokeinterface #134,  1          // InterfaceMethod betterquesting/api2/client/gui/misc/IGuiRect.getWidth:()I
+      61: i2f
+      62: fload_3
+      63: fdiv
+      64: f2d
+      65: invokestatic  #131                // Method java/lang/Math.floor:(D)D
+      68: d2i
+      69: istore        4
+      71: iload         4
+      73: bipush        8
+      75: if_icmple     91
+      78: aload_2
+      79: aload_0
+      80: getfield      #54                 // Field text:Ljava/lang/String;
+      83: iload         4
+      85: invokevirtual #138                // Method net/minecraft/client/gui/FontRenderer.func_78271_c:(Ljava/lang/String;I)Ljava/util/List;
+      88: goto          94
+      91: invokestatic  #144                // Method java/util/Collections.emptyList:()Ljava/util/List;
+      94: astore        5
+      96: aload_0
+      97: aload         5
+      99: invokeinterface #148,  1          // InterfaceMethod java/util/List.size:()I
+     104: iconst_1
+     105: isub
+     106: putfield      #69                 // Field lines:I
+     109: aload_0
+     110: getfield      #76                 // Field transform:Lbetterquesting/api2/client/gui/panels/content/PanelTextBox$GuiRectText;
+     113: aload_2
+     114: getfield      #125                // Field net/minecraft/client/gui/FontRenderer.field_78288_b:I
+     117: aload         5
+     119: invokeinterface #148,  1          // InterfaceMethod java/util/List.size:()I
+     124: imul
+     125: i2f
+     126: fload_3
+     127: fmul
+     128: f2d
+     129: invokestatic  #131                // Method java/lang/Math.floor:(D)D
+     132: d2i
+     133: invokestatic  #152                // Method betterquesting/api2/client/gui/panels/content/PanelTextBox$GuiRectText.access$002:(Lbetterquesting/api2/client/gui/panels/content/PanelTextBox$GuiRectText;I)I
+     136: pop
+     137: aload_0
+     138: getfield      #48                 // Field refRect:Lbetterquesting/api2/client/gui/misc/GuiRectangle;
+     141: aload_1
+     142: invokeinterface #155,  1          // InterfaceMethod betterquesting/api2/client/gui/misc/IGuiRect.getX:()I
+     147: putfield      #158                // Field betterquesting/api2/client/gui/misc/GuiRectangle.x:I
+     150: aload_0
+     151: getfield      #48                 // Field refRect:Lbetterquesting/api2/client/gui/misc/GuiRectangle;
+     154: aload_1
+     155: invokeinterface #161,  1          // InterfaceMethod betterquesting/api2/client/gui/misc/IGuiRect.getY:()I
+     160: putfield      #164                // Field betterquesting/api2/client/gui/misc/GuiRectangle.y:I
+     163: aload_0
+     164: getfield      #48                 // Field refRect:Lbetterquesting/api2/client/gui/misc/GuiRectangle;
+     167: aload_1
+     168: invokeinterface #134,  1          // InterfaceMethod betterquesting/api2/client/gui/misc/IGuiRect.getWidth:()I
+     173: putfield      #167                // Field betterquesting/api2/client/gui/misc/GuiRectangle.w:I
+     176: aload_0
+     177: getfield      #48                 // Field refRect:Lbetterquesting/api2/client/gui/misc/GuiRectangle;
+     180: aload_1
+     181: invokeinterface #120,  1          // InterfaceMethod betterquesting/api2/client/gui/misc/IGuiRect.getHeight:()I
+     186: putfield      #170                // Field betterquesting/api2/client/gui/misc/GuiRectangle.h:I
+     189: return
+
+  public betterquesting.api2.client.gui.misc.IGuiRect getTransform();
+    Code:
+       0: aload_0
+       1: getfield      #76                 // Field transform:Lbetterquesting/api2/client/gui/panels/content/PanelTextBox$GuiRectText;
+       4: areturn
+
+  public void initPanel();
+    Code:
+       0: aload_0
+       1: invokespecial #85                 // Method refreshText:()V
+       4: return
+
+  public void setEnabled(boolean);
+    Code:
+       0: aload_0
+       1: iload_1
+       2: putfield      #50                 // Field enabled:Z
+       5: return
+
+  public boolean isEnabled();
+    Code:
+       0: aload_0
+       1: getfield      #50                 // Field enabled:Z
+       4: ireturn
+
+  public void drawPanel(int, int, float);
+    Code:
+       0: aload_0
+       1: aload_0
+       2: getfield      #48                 // Field refRect:Lbetterquesting/api2/client/gui/misc/GuiRectangle;
+       5: aload_0
+       6: invokevirtual #104                // Method getTransform:()Lbetterquesting/api2/client/gui/misc/IGuiRect;
+       9: invokespecial #188                // Method isRectEqual:(Lbetterquesting/api2/client/gui/misc/IGuiRect;Lbetterquesting/api2/client/gui/misc/IGuiRect;)Z
+      12: ifne          19
+      15: aload_0
+      16: invokespecial #85                 // Method refreshText:()V
+      19: aload_0
+      20: getfield      #69                 // Field lines:I
+      23: ifge          27
+      26: return
+      27: aload_0
+      28: invokevirtual #104                // Method getTransform:()Lbetterquesting/api2/client/gui/misc/IGuiRect;
+      31: astore        4
+      33: invokestatic  #110                // Method net/minecraft/client/Minecraft.func_71410_x:()Lnet/minecraft/client/Minecraft;
+      36: getfield      #114                // Field net/minecraft/client/Minecraft.field_71466_p:Lnet/minecraft/client/gui/FontRenderer;
+      39: astore        5
+      41: aload_0
+      42: getfield      #67                 // Field fontScale:I
+      45: i2f
+      46: ldc           #29                 // float 12.0f
+      48: fdiv
+      49: f2d
+      50: dstore        6
+      52: aload         4
+      54: invokeinterface #134,  1          // InterfaceMethod betterquesting/api2/client/gui/misc/IGuiRect.getWidth:()I
+      59: i2d
+      60: dload         6
+      62: ddiv
+      63: invokestatic  #191                // Method java/lang/Math.ceil:(D)D
+      66: d2i
+      67: istore        8
+      69: iload         8
+      71: i2d
+      72: aload_0
+      73: getfield      #54                 // Field text:Ljava/lang/String;
+      76: aload         5
+      78: invokestatic  #197                // Method betterquesting/api/utils/RenderUtils.getStringWidth:(Ljava/lang/String;Lnet/minecraft/client/gui/FontRenderer;)I
+      81: i2d
+      82: dload         6
+      84: dmul
+      85: invokestatic  #201                // Method java/lang/Math.min:(DD)D
+      88: dstore        9
+      90: iload         8
+      92: ifgt          96
+      95: return
+      96: invokestatic  #206                // Method net/minecraft/client/renderer/GlStateManager.func_179094_E:()V
+      99: aload         4
+     101: invokeinterface #155,  1          // InterfaceMethod betterquesting/api2/client/gui/misc/IGuiRect.getX:()I
+     106: i2f
+     107: aload         4
+     109: invokeinterface #161,  1          // InterfaceMethod betterquesting/api2/client/gui/misc/IGuiRect.getY:()I
+     114: i2f
+     115: fconst_1
+     116: invokestatic  #210                // Method net/minecraft/client/renderer/GlStateManager.func_179109_b:(FFF)V
+     119: aload_0
+     120: getfield      #65                 // Field align:I
+     123: iconst_1
+     124: if_icmpne     151
+     127: aload         4
+     129: invokeinterface #134,  1          // InterfaceMethod betterquesting/api2/client/gui/misc/IGuiRect.getWidth:()I
+     134: i2d
+     135: ldc2_w        #211                // double 2.0d
+     138: ddiv
+     139: dload         9
+     141: ldc2_w        #211                // double 2.0d
+     144: ddiv
+     145: dsub
+     146: dconst_0
+     147: dconst_0
+     148: invokestatic  #216                // Method net/minecraft/client/renderer/GlStateManager.func_179137_b:(DDD)V
+     151: aload_0
+     152: getfield      #65                 // Field align:I
+     155: iconst_2
+     156: if_icmpne     175
+     159: aload         4
+     161: invokeinterface #134,  1          // InterfaceMethod betterquesting/api2/client/gui/misc/IGuiRect.getWidth:()I
+     166: i2d
+     167: dload         9
+     169: dsub
+     170: dconst_0
+     171: dconst_0
+     172: invokestatic  #216                // Method net/minecraft/client/renderer/GlStateManager.func_179137_b:(DDD)V
+     175: dload         6
+     177: dload         6
+     179: dconst_1
+     180: invokestatic  #219                // Method net/minecraft/client/renderer/GlStateManager.func_179139_a:(DDD)V
+     183: aload_0
+     184: getfield      #65                 // Field align:I
+     187: iconst_2
+     188: if_icmpne     225
+     191: aload         5
+     193: aload_0
+     194: getfield      #54                 // Field text:Ljava/lang/String;
+     197: iconst_0
+     198: iconst_0
+     199: iload         8
+     201: aload_0
+     202: getfield      #63                 // Field color:Lbetterquesting/api2/client/gui/resources/colors/IGuiColor;
+     205: invokeinterface #224,  1          // InterfaceMethod betterquesting/api2/client/gui/resources/colors/IGuiColor.getRGB:()I
+     210: aload_0
+     211: getfield      #56                 // Field shadow:Z
+     214: iconst_0
+     215: aload_0
+     216: getfield      #69                 // Field lines:I
+     219: invokestatic  #228                // Method betterquesting/api/utils/RenderUtils.drawSplitString:(Lnet/minecraft/client/gui/FontRenderer;Ljava/lang/String;IIIIZII)V
+     222: goto          298
+     225: aload_0
+     226: getfield      #65                 // Field align:I
+     229: iconst_1
+     230: if_icmpne     267
+     233: aload         5
+     235: aload_0
+     236: getfield      #54                 // Field text:Ljava/lang/String;
+     239: iconst_0
+     240: iconst_0
+     241: iload         8
+     243: aload_0
+     244: getfield      #63                 // Field color:Lbetterquesting/api2/client/gui/resources/colors/IGuiColor;
+     247: invokeinterface #224,  1          // InterfaceMethod betterquesting/api2/client/gui/resources/colors/IGuiColor.getRGB:()I
+     252: aload_0
+     253: getfield      #56                 // Field shadow:Z
+     256: iconst_0
+     257: aload_0
+     258: getfield      #69                 // Field lines:I
+     261: invokestatic  #228                // Method betterquesting/api/utils/RenderUtils.drawSplitString:(Lnet/minecraft/client/gui/FontRenderer;Ljava/lang/String;IIIIZII)V
+     264: goto          298
+     267: aload         5
+     269: aload_0
+     270: getfield      #54                 // Field text:Ljava/lang/String;
+     273: iconst_0
+     274: iconst_0
+     275: iload         8
+     277: aload_0
+     278: getfield      #63                 // Field color:Lbetterquesting/api2/client/gui/resources/colors/IGuiColor;
+     281: invokeinterface #224,  1          // InterfaceMethod betterquesting/api2/client/gui/resources/colors/IGuiColor.getRGB:()I
+     286: aload_0
+     287: getfield      #56                 // Field shadow:Z
+     290: iconst_0
+     291: aload_0
+     292: getfield      #69                 // Field lines:I
+     295: invokestatic  #228                // Method betterquesting/api/utils/RenderUtils.drawSplitString:(Lnet/minecraft/client/gui/FontRenderer;Ljava/lang/String;IIIIZII)V
+     298: invokestatic  #231                // Method net/minecraft/client/renderer/GlStateManager.func_179121_F:()V
+     301: return
+
+  public boolean onMouseClick(int, int, int);
+    Code:
+       0: iconst_0
+       1: ireturn
+
+  public boolean onMouseRelease(int, int, int);
+    Code:
+       0: iconst_0
+       1: ireturn
+
+  public boolean onMouseScroll(int, int, int);
+    Code:
+       0: iconst_0
+       1: ireturn
+
+  public boolean onKeyTyped(char, int);
+    Code:
+       0: iconst_0
+       1: ireturn
+
+  public java.util.List<java.lang.String> getTooltip(int, int);
+    Code:
+       0: aconst_null
+       1: areturn
+
+  private boolean isRectEqual(betterquesting.api2.client.gui.misc.IGuiRect, betterquesting.api2.client.gui.misc.IGuiRect);
+    Code:
+       0: aload_1
+       1: invokeinterface #155,  1          // InterfaceMethod betterquesting/api2/client/gui/misc/IGuiRect.getX:()I
+       6: aload_2
+       7: invokeinterface #155,  1          // InterfaceMethod betterquesting/api2/client/gui/misc/IGuiRect.getX:()I
+      12: if_icmpne     64
+      15: aload_1
+      16: invokeinterface #161,  1          // InterfaceMethod betterquesting/api2/client/gui/misc/IGuiRect.getY:()I
+      21: aload_2
+      22: invokeinterface #161,  1          // InterfaceMethod betterquesting/api2/client/gui/misc/IGuiRect.getY:()I
+      27: if_icmpne     64
+      30: aload_1
+      31: invokeinterface #134,  1          // InterfaceMethod betterquesting/api2/client/gui/misc/IGuiRect.getWidth:()I
+      36: aload_2
+      37: invokeinterface #134,  1          // InterfaceMethod betterquesting/api2/client/gui/misc/IGuiRect.getWidth:()I
+      42: if_icmpne     64
+      45: aload_1
+      46: invokeinterface #120,  1          // InterfaceMethod betterquesting/api2/client/gui/misc/IGuiRect.getHeight:()I
+      51: aload_2
+      52: invokeinterface #120,  1          // InterfaceMethod betterquesting/api2/client/gui/misc/IGuiRect.getHeight:()I
+      57: if_icmpne     64
+      60: iconst_1
+      61: goto          65
+      64: iconst_0
+      65: ireturn
+}

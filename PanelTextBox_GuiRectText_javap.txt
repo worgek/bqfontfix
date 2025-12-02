@@ -1,0 +1,135 @@
+Compiled from "PanelTextBox.java"
+class betterquesting.api2.client.gui.panels.content.PanelTextBox$GuiRectText implements betterquesting.api2.client.gui.misc.IGuiRect {
+  private final betterquesting.api2.client.gui.misc.IGuiRect proxy;
+
+  private final boolean useH;
+
+  private int h;
+
+  public betterquesting.api2.client.gui.panels.content.PanelTextBox$GuiRectText(betterquesting.api2.client.gui.misc.IGuiRect, boolean);
+    Code:
+       0: aload_0
+       1: invokespecial #21                 // Method java/lang/Object."<init>":()V
+       4: aload_0
+       5: aload_1
+       6: putfield      #23                 // Field proxy:Lbetterquesting/api2/client/gui/misc/IGuiRect;
+       9: aload_0
+      10: iload_2
+      11: putfield      #25                 // Field useH:Z
+      14: return
+
+  public int getX();
+    Code:
+       0: aload_0
+       1: getfield      #23                 // Field proxy:Lbetterquesting/api2/client/gui/misc/IGuiRect;
+       4: invokeinterface #31,  1           // InterfaceMethod betterquesting/api2/client/gui/misc/IGuiRect.getX:()I
+       9: ireturn
+
+  public int getY();
+    Code:
+       0: aload_0
+       1: getfield      #23                 // Field proxy:Lbetterquesting/api2/client/gui/misc/IGuiRect;
+       4: invokeinterface #34,  1           // InterfaceMethod betterquesting/api2/client/gui/misc/IGuiRect.getY:()I
+       9: ireturn
+
+  public int getWidth();
+    Code:
+       0: aload_0
+       1: getfield      #23                 // Field proxy:Lbetterquesting/api2/client/gui/misc/IGuiRect;
+       4: invokeinterface #37,  1           // InterfaceMethod betterquesting/api2/client/gui/misc/IGuiRect.getWidth:()I
+       9: ireturn
+
+  public int getHeight();
+    Code:
+       0: aload_0
+       1: getfield      #25                 // Field useH:Z
+       4: ifeq          14
+       7: aload_0
+       8: getfield      #40                 // Field h:I
+      11: goto          23
+      14: aload_0
+      15: getfield      #23                 // Field proxy:Lbetterquesting/api2/client/gui/misc/IGuiRect;
+      18: invokeinterface #42,  1           // InterfaceMethod betterquesting/api2/client/gui/misc/IGuiRect.getHeight:()I
+      23: ireturn
+
+  public int getDepth();
+    Code:
+       0: aload_0
+       1: getfield      #23                 // Field proxy:Lbetterquesting/api2/client/gui/misc/IGuiRect;
+       4: invokeinterface #45,  1           // InterfaceMethod betterquesting/api2/client/gui/misc/IGuiRect.getDepth:()I
+       9: ireturn
+
+  public betterquesting.api2.client.gui.misc.IGuiRect getParent();
+    Code:
+       0: aload_0
+       1: getfield      #23                 // Field proxy:Lbetterquesting/api2/client/gui/misc/IGuiRect;
+       4: invokeinterface #49,  1           // InterfaceMethod betterquesting/api2/client/gui/misc/IGuiRect.getParent:()Lbetterquesting/api2/client/gui/misc/IGuiRect;
+       9: areturn
+
+  public void setParent(betterquesting.api2.client.gui.misc.IGuiRect);
+    Code:
+       0: aload_0
+       1: getfield      #23                 // Field proxy:Lbetterquesting/api2/client/gui/misc/IGuiRect;
+       4: aload_1
+       5: invokeinterface #53,  2           // InterfaceMethod betterquesting/api2/client/gui/misc/IGuiRect.setParent:(Lbetterquesting/api2/client/gui/misc/IGuiRect;)V
+      10: return
+
+  public boolean contains(int, int);
+    Code:
+       0: aload_0
+       1: invokevirtual #57                 // Method getX:()I
+       4: istore_3
+       5: iload_3
+       6: aload_0
+       7: invokevirtual #58                 // Method getWidth:()I
+      10: iadd
+      11: istore        4
+      13: aload_0
+      14: invokevirtual #59                 // Method getY:()I
+      17: istore        5
+      19: iload         5
+      21: aload_0
+      22: invokevirtual #60                 // Method getHeight:()I
+      25: iadd
+      26: istore        6
+      28: iload_1
+      29: iload_3
+      30: if_icmplt     55
+      33: iload_1
+      34: iload         4
+      36: if_icmpge     55
+      39: iload_2
+      40: iload         5
+      42: if_icmplt     55
+      45: iload_2
+      46: iload         6
+      48: if_icmpge     55
+      51: iconst_1
+      52: goto          56
+      55: iconst_0
+      56: ireturn
+
+  public int compareTo(betterquesting.api2.client.gui.misc.IGuiRect);
+    Code:
+       0: aload_0
+       1: getfield      #23                 // Field proxy:Lbetterquesting/api2/client/gui/misc/IGuiRect;
+       4: aload_1
+       5: invokeinterface #72,  2           // InterfaceMethod betterquesting/api2/client/gui/misc/IGuiRect.compareTo:(Ljava/lang/Object;)I
+      10: ireturn
+
+  public int compareTo(java.lang.Object);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: checkcast     #6                  // class betterquesting/api2/client/gui/misc/IGuiRect
+       5: invokevirtual #75                 // Method compareTo:(Lbetterquesting/api2/client/gui/misc/IGuiRect;)I
+       8: ireturn
+
+  static int access$002(betterquesting.api2.client.gui.panels.content.PanelTextBox$GuiRectText, int);
+    Code:
+       0: aload_0
+       1: iload_1
+       2: dup_x1
+       3: putfield      #40                 // Field h:I
+       6: ireturn
+}
